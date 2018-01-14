@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lohit Hostel</title>
+    <link rel="shortcut icon" type="image/x-icon" href="logo.jpg" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .dropdown-submenu {
+            position: relative;
+        }
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+        }
+        .navbar-nav a{
+            font-size:large;
+        }
+        .navbar-brand{
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="font-family: 'Bradley Hand ITC';color:#ff8800;"><b><i>Lohit Hostel</i></b></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Administration</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2017-18</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="admin/2017/hmc.html">HMC</a></li>
+                                <li><a tabindex="-1" href="admin/2017/mmc.html">MMC</a></li>
+                                <li><a tabindex="-1" href="admin/2017/arc.html">Anti Ragging Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2016-17</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="admin/2016/hmc.html">HMC</a></li>
+                                <li><a tabindex="-1" href="admin/2016/mmc.html">MMC</a></li>
+                                <li><a tabindex="-1" href="admin/2016/arc.html">Anti Ragging Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2015-16</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="admin/2015/hmc.html">HMC</a></li>
+                                <li><a href="admin/2015/mmc.html">MMC</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="boarders.html">Boarders</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Intra-Hostel Competitions</a>
+                    <ul  class="dropdown-menu">
+                        <li><a href="ihc/kriti.html">Kriti</a></li>
+                        <li><a href="ihc/manthan.html">Manthan</a></li>
+                        <li><a href="ihc/spardha.html">Spardha</a></li>
+                    </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Suggestion Forms</a>
+                    <ul  class="dropdown-menu">
+                        <li><a href="sugg/mess_sugg.html">Mess Suggestion Form</a></li>
+                        <li><a href="sugg/maint_sugg.html">Maintenance Suggestion Form</a></li>
+                    </ul>
+                </li>
+                <li><a href="policies.html">Hostel Policies</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<script>
+    $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+        });
+    });
+</script>
+<div class="content" style="margin-left:10%;margin-right: 10%">
+    <div class="container-fluid">
+        <h1 style="text-align: center;">Want to submit a photo you have ? <br/></h1>
+        <div class="conainer-fluid" style="text-align: center">
+            <a class="btn btn-default btn-lg" style="background-color:#ff8800;color:white;font-size: x-large" href="https://docs.google.com/forms/d/e/1FAIpQLSetiJ2s0MfwIis5Gjz-DEdghuxS9JmSH0CrDlLSF-Z77UW1Rw/viewform?c=0&w=1" target="_blank">Submit</a>
+        <br/><br/>
+        </div>
+    </div>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="img/gallery/slide1.jpg">
+                    <img src="img/gallery/slide1.jpg" alt="Lohit Hostel" >
+
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="img/gallery/slide2.jpg">
+                    <img src="img/gallery/slide2.jpg" alt="Lohit Hostel" >
+                    </a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="img/gallery/slide3.jpg">
+                    <img src="img/gallery/slide3.jpg" alt="Lohit Hostel" >
+
+                </a>
+            </div>
+        </div>
+    </div>
+        <div class="row">
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="img/gallery/slide6.jpg">
+                    <img src="img/gallery/slide6.jpg" alt="Lohit Hostel" style="width:100%">
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<br>
+<br>
+<div class="footer" style="margin-right: 10%;margin-left: 10%;">
+    <h4 style="text-align: center">Designed and Maintained by <a href="https://www.facebook.com/pavan71198" target="_blank" style="text-decoration: none">Pavan Kumar</a></h4>
+</div>
+</body>
+</html>

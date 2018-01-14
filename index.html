@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lohit Hostel</title>
+    <link rel="shortcut icon" type="image/x-icon" href="logo.jpg" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .dropdown-submenu {
+            position: relative;
+        }
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+        }
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 100%;
+            margin: auto;
+        }
+        .carousel-inner > .item > img{
+        }
+        .navbar-nav a{
+            font-size:large;
+        }
+        .navbar-brand{
+            font-size: x-large;
+        }
+        .list-group-item > a{
+            text-decoration: none;
+        }
+        .btn-default >a {
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="font-family: 'Bradley Hand ITC';color:#ff8800;"><b><i>Lohit Hostel</i></b></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Administration</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2017-18</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="admin/2017/hmc.html">HMC</a></li>
+                                <li><a tabindex="-1" href="admin/2017/mmc.html">MMC</a></li>
+                                <li><a tabindex="-1" href="admin/2017/arc.html">Anti Ragging Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2016-17</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="admin/2016/hmc.html">HMC</a></li>
+                                <li><a tabindex="-1" href="admin/2016/mmc.html">MMC</a></li>
+                                <li><a tabindex="-1" href="admin/2016/arc.html">Anti Ragging Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2015-16</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="admin/2015/hmc.html">HMC</a></li>
+                                <li><a href="admin/2015/mmc.html">MMC</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="boarders.html">Boarders</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Intra-Hostel Competitions</a>
+                    <ul  class="dropdown-menu">
+                        <li><a href="ihc/kriti.html">Kriti</a></li>
+                        <li><a href="ihc/manthan.html">Manthan</a></li>
+                        <li><a href="ihc/spardha.html">Spardha</a></li>
+                    </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Suggestion Forms</a>
+                    <ul  class="dropdown-menu">
+                        <li><a href="sugg/mess_sugg.html">Mess Suggestion Form</a></li>
+                        <li><a href="sugg/maint_sugg.html">Maintenance Suggestion Form</a></li>
+                    </ul>
+                </li>
+                <li><a href="policies.html">Hostel Policies</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<script>
+    $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+        });
+    });
+</script>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <p style="text-align:center;font-size:2em;">New to the Hostel or haven't registered yet?</p>
+            <div class="container-fluid" style="text-align: center">
+            <a class="btn btn-default btn-lg" style="background-color:#ff8800;color:white;" href="https://goo.gl/forms/W68O7Q7hBVMkPNKM2" target="_blank">Register Now!</a>
+            </div>
+            <h2 style="text-align:center;font-size:1.5em;">Be in touch with your fellow Lohitites on Facebook</h2>
+            <div class="container-fluid" style="text-align: center">
+                <a class="btn btn-default btn-lg" style="background-color:#ff8800;color:white;" href="https://www.facebook.com/groups/lohit.iitg/" target="_blank">Join Lohit Facebook Group</a>
+            </div>
+            <h2 style="text-align:center;font-size:1.5em;">Register to "stud.lohit" Mail Group</h2>
+            <div class="container-fluid" style="text-align: center">
+                <a class="btn btn-default btn-lg" style="background-color:#ff8800;color:white;" href="https://mail.iitg.ernet.in/mailman/listinfo/stud.lohit" target="_blank">Register Now!</a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="container-fluid">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="img/gallery/slide1.jpg" alt="Lohit Hostel">
+                        </div>
+
+                        <div class="item">
+                            <img src="img/gallery/slide2.jpg" alt="Lohit Hostel">
+                        </div>
+
+                        <div class="item">
+                            <img src="img/gallery/slide3.jpg" alt="Lohit Hostel" >
+                        </div>
+
+                        <div class="item">
+                            <img src="img/gallery/slide6.jpg" alt="Lohit Hostel" >
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading" style="text-align:center;font-size:2em;">Announcements</div>
+            </div>
+            <ul class="list-group" style="overflow-y: auto;">
+                <li class="list-group-item"><a href="announcements.html#3" target="_blank">Announcement 3</a></li>
+                <li class="list-group-item"><a href="announcements.html#2" target="_blank">Announcement 2</a></li>
+                <li class="list-group-item"><a href="announcements.html#1" target="_blank">Announcement 1</a></li>
+                <li class="list-group-item"><a href="doc/mess_menu.pdf" target="_blank">Mess Menu, November'17</a></li>
+                <li class="list-group-item"><a href="doc/policies/printer_guid.pdf" target="_blank">Guidelines for using the Printer cum Scanner</a></li>
+                <li class="list-group-item"><a href="doc/policies/read_guid.pdf" target="_blank">Guidelines for using the Reading Room</a></li>
+                <li class="list-group-item"><a href="doc/tech_equi.pdf" target="_blank">List of Technical Equipments</a></li>
+                <li class="list-group-item"><a href="https://goo.gl/VoeLAA" target="_blank">List of Books</a></li>
+                <li class="list-group-item"><a href="admin/minutes.html">HMC Meeting Minutes</a></li>
+            </ul>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-6">
+            <h1 style="text-align:center;font-size:2em;">Welcome to Lohit Hostel</h1>
+            <p style="text-align:center;font-size:1.3em;">Inaugurated in 2014, Lohit is the 10th boys’ hostel in the campus. This hostel houses UGs and PGs. The hostel has a reading room, table tennis room, television room and music room to ensure a pleasant stay to all the boarders. In addition, the hostel has a juice centre, canteen and stationery shop to cater the need of the students.</p><br>
+
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2"></div>
+
+</div>
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <div class="thumbnail">
+            <a href="logo.jpg">
+                <img src="logo.jpg" alt="Lohit Hostel" >
+            </a>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+            <p style="text-align:justify;font-size:1.1em;">Greetings to all the students of Lohit Hostel, one of the young ones in the hostel fraternity of IIT Guwahati!<br>
+                Our hostel is still in the construction and development stage with the coming up of new blocks D and E, adding to the already existing A, B and C blocks. Currently, we have a formidable strength of 725 students with the target of reaching the full capacity of 1,050 shortly.<br>The extremely dedicated Hostel Management Committee members are working hard to provide you with a desirable ambience for academic, sports and various culturalactivities.
+                As it happens in the development stage, a lot of facilities are being added to the hostel slowly. We request you to be patient and be part of the journey of making Lohit hostel the best hostel in IIT Guwahati. We look forward to your whole-hearted participation and co-operation in this regard.
+                We wish you all the best for a cherishable stay in Lohit hostel.<br><br></p>
+                <p style="float: right;font-size:1.2em;">Warden and Associate Wardens,<br>
+            Lohit hostel.</p>
+            </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div class="row container-fluid">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading" style="text-align:center;font-size:1.5em;">Quick Links</div>
+        </div>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+<div class="row container-fluid">
+    <div class="col-md-2"></div>
+    <div class="col-md-8 text-center">
+        <button type="button" class="btn btn-default"><a href="http://intranet.iitg.ernet.in/">IITG - Intranet website</a></button>
+        <button type="button" class="btn btn-default"><a href="https://webmail.iitg.ernet.in/src/login.php">IITG - Webmail</a></button>
+        <button type="button" class="btn btn-default"><a href="http://www.yourdost.com/">Anonymous Emotional Support System</a></button>
+        <button type="button" class="btn btn-default"><a href="admin/2017/arc.html">Anti-Ragging Committee</a></button>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<br>
+<div class="row container-fluid">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 text-center">
+        <button type="button" class="btn btn-default"><a href="http://intranet.iitg.ernet.in/repo/">Software Repository</a></button>
+        <button type="button" class="btn btn-default"><a href="http://intranet.iitg.ernet.in/noticeboard/index.php">Notice Board</a></button>
+        <button type="button" class="btn btn-default"><a href="http://intranet.iitg.ernet.in/news/">IITG Newsgroups</a></button>
+        <button type="button" class="btn btn-default"><a href="http://local.iitg.ernet.in/cc/intranet/aliases">Email Aliases</a></button>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+<br>
+<div class="row container-fluid">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 text-center">
+        <button type="button" class="btn btn-default"><a href="http://kolong.iitg.ernet.in/stud/gymkhana/">Students' Gymkhana</a></button>
+        <button type="button" class="btn btn-default"><a href="http://local.iitg.ernet.in/pro/newsletter">Newsletter</a></button>
+        <button type="button" class="btn btn-default"><a href="http://local.iitg.ernet.in/aboutus">About IITG</a></button>
+        <button type="button" class="btn btn-default"><a href="https://www.facebook.com/groups/877451105600327/">Lohit Facebook Group</a></button>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+<br>
+<div class="footer" style="margin-right: 10%;margin-left: 10%;">
+    <h4 style="text-align: center">Designed and Maintained by <a href="https://www.facebook.com/pavan71198" target="_blank" style="text-decoration: none">Pavan Kumar</a></h4>
+</div>
+</body>
+</html>

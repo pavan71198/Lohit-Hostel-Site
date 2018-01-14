@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lohit Hostel</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../logo.jpg" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <style>
+        .dropdown-submenu {
+            position: relative;
+        }
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+        }
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 80%;
+            margin: auto;
+        }
+        .carousel-inner > .item > img{
+        }
+        .navbar-nav a{
+            font-size:large;
+        }
+        .navbar-brand{
+            font-size: x-large;
+        }
+        .mmc a{
+            text-decoration:none;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="font-family: 'Bradley Hand ITC';color:#ff8800;"><b><i>Lohit Hostel</i></b></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="../index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Administration</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2016-17</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="../admin/2016/hmc.html">HMC</a></li>
+                                <li><a tabindex="-1" href="../admin/2016/mmc.html">MMC</a></li>
+                                <li><a tabindex="-1" href="../admin/2016/arc.html">Anti Ragging Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2015-16</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../admin/2015/hmc.html">HMC</a></li>
+                                <li><a href="../admin/2015/mmc.html">MMC</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="../boarders.html">Boarders</a></li>
+                <li><a href="../facilities.html">Facilities</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Intra-Hostel Competitions</a>
+                    <ul  class="dropdown-menu">
+                        <li><a href="../ihc/kriti.html">Kriti</a></li>
+                        <li><a href="../ihc/manthan.html">Manthan</a></li>
+                        <li><a href="../ihc/spardha.html">Spardha</a></li>
+                    </ul>
+                </li>
+                <li><a href="../gallery.html">Gallery</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Suggestion Forms</a>
+                    <ul  class="dropdown-menu">
+                        <li><a href="../sugg/mess_sugg.html">Mess Suggestion Form</a></li>
+                        <li><a href="../sugg/maint_sugg.html">Maintenance Suggestion Form</a></li>
+                    </ul>
+                </li>
+                <li><a href="../policies.html">Hostel Policies</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<script>
+    $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+        });
+    });
+</script>
+<div class="row container-fluid" style="height:20%">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+    <div class="container-fluid">
+    <h1 style="text-align: center;">Lohit Hostel Mess</h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="../img/mess/mess1.bmp" alt="Hostel Mess">
+                </div>
+
+                <div class="item">
+                    <img src="../img/mess/mess3.bmp" alt="Hostel Mess" >
+                </div>
+
+                <div class="item">
+                    <img src="../img/mess/mess6.bmp" alt="Hostel Mess">
+                </div>
+
+                <div class="item">
+                    <img src="../img/mess/mess8.bmp" alt="Hostel Mess">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+
+        </div>
+    </div>
+</div>
+<div class="col-md-4"></div>
+</div>
+<div class="row container-fluid">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <h2 style="text-align:center;">Mess Information</h2>
+        <p style="text-align: justify">
+            Lohit Mess has newly established kitchen equipped with hot air exhausting chimney and air conditioning system in cooking area. The mess is designed to serve the food to eleven hundred students whereas currently approximately eight hundred students are taking food in mess. The mess includes thirty-four working staff. The workers of the mess wear hand-glows, cap, and their assigned uniform on daily basis. The MMC (Mess management Committee) member look after the hygiene in mess and kitchen premise, quality of food, punctuality of mess time, preparation of menu and other issues related to mess.
+            For the preparation of mess menu online suggestion via google form has been taken from boarders on monthly basis.On the basis of received suggestion and discussion among MMC member and Caterer the menu will be prepared. The prepared menu will be sent to boarder via webmail and posted on mess notice board and hostel webpage. The daily complain and suggestion will be addressed and resolved by MMC member. Depending upon the severity of problem the action will be taken against the caterer. The action taken on such issues will be displayed on notice board of lohit mess.
+            <br><p style="text-align: center">Thanks & Welcome to Lohit Mess<br>
+            Mess Convener</p><br><br>
+        </p>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<h1 style="text-align: center;">Mess Management Committee 2016-17</h1>
+<div class="row container-fluid mmc">
+    <div class="col-md-4"></div>
+    <div class="col-md-1"><div class="thumbnail">
+        <img src="../img/2016/hmc/mess.jpg">
+    </div></div>
+    <div class="col-md-4">
+        <a href="https://www.facebook.com/shivanand.mali1"> Shivanand Mali</a><br>
+        <b>Mess Convener</b><br>
+        WEBMAIL: shivanand.mali<br>
+        CONTACT ME: 09085342564<br>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+<h2 style="text-align: center;">Mess Management Members </h2>
+<div class="row container-fluid mmc">
+    <div class="col-md-2"></div>
+    <div class="col-md-1"><div class="thumbnail">
+        <img src="../img/2016/mmc/arvind.jpg">
+    </div></div>
+    <div class="col-md-2">
+        <a href="https://www.facebook.com/profile.php?id=100004685088140&fref=ts">Arvind Budania</a><br>
+        CONTACT ME: +919085254228<br>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-1"><div class="thumbnail">
+        <img src="../img/2016/mmc/Shivaji_mmc_1.jpg">
+    </div></div>
+    <div class="col-md-2">
+        <a href="https://www.facebook.com/arshivaji"> Shiva Ji</a><br>
+        CONTACT ME: 09313414624<br>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<div class="row container-fluid mmc">
+    <div class="col-md-2"></div>
+    <div class="col-md-1"><div class="thumbnail">
+        <img src="../img/2016/mmc/jithin_mmc_3.jpg">
+    </div></div>
+    <div class="col-md-2">
+        <a href="https://www.facebook.com/jithin.balathil?fref=ts"> Jithin Krishnan</a><br>
+        CONTACT ME: +918011491700<br>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-1"><div class="thumbnail">
+        <img src="../img/2016/mmc/shubham_mmc_2.JPG">
+    </div></div>
+    <div class="col-md-2">
+        <a href="https://www.facebook.com/profile.php?id=100003943004625&fref=ts"> Shubham Jain</a><br>
+        CONTACT ME: +919435664031<br>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<div class="row container-fluid mmc">
+    <div class="col-md-4"></div>
+    <div class="col-md-1"><div class="thumbnail">
+        <img src="../img/2016/mmc/tarun_mmc_4.jpg">
+    </div></div>
+    <div class="col-md-4">
+        <a href="https://www.facebook.com/tarunmech?fref=ts"> Tarun Sachdeva</a><br>
+        CONTACT ME: +917417007003<br>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+<div class="conainer-fluid" style="text-align: center">
+    <a class="btn btn-default btn-lg" style="background-color:#ff8800;color:white;" href="../doc/mess_menu.pdf" target="_blank">Mess Menu</a>
+</div>
+<br>
+<br>
+<div class="footer" style="margin-right: 10%;margin-left: 10%;border-top-width: thick;border-top-color: #000000">
+    <h4 style="float: left">Designed by <a href="https://www.facebook.com/pavan71198" target="_blank" style="text-decoration: none">Pavan Kumar</a></h4>
+    <h4 style="float: right">Maintained by <a href="https://www.facebook.com/gajrajsingh.jodha45" style="text-decoration: none">Gajraj Singh Jodha</a></h4>
+</div>
+</body>
+</html>

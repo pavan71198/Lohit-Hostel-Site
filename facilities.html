@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lohit Hostel</title>
+    <link rel="shortcut icon" type="image/x-icon" href="logo.jpg" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .dropdown-submenu {
+            position: relative;
+        }
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+        }
+
+        .navbar-nav a{
+            font-size:large;
+        }
+        .navbar-brand{
+            font-size: x-large;
+        }
+        p{
+            text-align:justify;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="font-family: 'Bradley Hand ITC';color:#ff8800;"><b><i>Lohit Hostel</i></b></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Administration</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2017-18</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="admin/2017/hmc.html">HMC</a></li>
+                                <li><a tabindex="-1" href="admin/2017/mmc.html">MMC</a></li>
+                                <li><a tabindex="-1" href="admin/2017/arc.html">Anti Ragging Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2016-17</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="admin/2016/hmc.html">HMC</a></li>
+                                <li><a tabindex="-1" href="admin/2016/mmc.html">MMC</a></li>
+                                <li><a tabindex="-1" href="admin/2016/arc.html">Anti Ragging Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2015-16</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="admin/2015/hmc.html">HMC</a></li>
+                                <li><a href="admin/2015/mmc.html">MMC</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="boarders.html">Boarders</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Intra-Hostel Competitions</a>
+                    <ul  class="dropdown-menu">
+                        <li><a href="ihc/kriti.html">Kriti</a></li>
+                        <li><a href="ihc/manthan.html">Manthan</a></li>
+                        <li><a href="ihc/spardha.html">Spardha</a></li>
+                    </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Suggestion Forms</a>
+                    <ul  class="dropdown-menu">
+                        <li><a href="sugg/mess_sugg.html">Mess Suggestion Form</a></li>
+                        <li><a href="sugg/maint_sugg.html">Maintenance Suggestion Form</a></li>
+                    </ul>
+                </li>
+                <li><a href="policies.html">Hostel Policies</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<script>
+    $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+        });
+    });
+</script>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+    <div class="panel panel-default">
+        <div class="panel-heading" style="text-align:center;font-size:1.5em;">Facilities</div>
+    </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-3"><div class="thumbnail">
+            <a href="img/facilities/hostel_mess.bmp">
+                <img src="img/facilities/hostel_mess.bmp" alt="Hostel Mess" >
+            </a></div></div>
+            <div class="col-md-5">
+                <h1><a href="facilities/mess.html" style="text-decoration: none;">Hostel Mess</a></h1>
+                </p>From the rugged terrain of the west to the occeanic adventure of the east and from the chillness of the north to the serene land of the south, the fooding experience of the lohit mess takes you through all these food cultures. The mess offers a huge variety of food items from across all parts of the country.
+                To ensure the satisfaction of students from all the different parts of the country, the hostelites elect a mess convener who in turn appoints a committee under him. <!--The committee consists of students from all parts of India.They inspect the food quality and advice the convener accordingly. From this year onwards, IITG has started the mess coupon and subscription system.-->
+                </p>
+            </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-3"><div class="thumbnail">
+            <a href="img/facilities/canteen.png">
+                <img src="img/facilities/canteen.png" alt="Canteen" >
+            </a></div></div>
+        <div class="col-md-5">
+            <h1>Canteen</h1>
+            </p>The hostel has a canteen which serve variety of packed items and handmade items from tea to regular meals and timings of canteen is from 9:00 Am to 3:00 Am midnight.</p>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-3"><div class="thumbnail">
+            <a href="img/facilities/juice_centre.jpg">
+                <img src="img/facilities/juice_centre.jpg" alt="Juice Centre" >
+            </a></div></div>
+        <div class="col-md-5">
+            <h1>Juice Center</h1>
+            <p>Boarders can enjoy fresh  juices, shakes, fruit salad and other cold drinks during the day to refresh themselves and add to their energy levels</p>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-3"><div class="thumbnail">
+            <a href="img/facilities/stationery_room.jpg">
+                <img src="img/facilities/stationery_room.jpg" alt="Stationery Shop" >
+            </a></div></div>
+        <div class="col-md-5">
+            <h1>Stationery Shop</h1>
+            <p>The stationary and utility shop makes the day to day life of the boarders smooth. Mobile recharge facility and printing/photocopying facility is available here</p>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-3"><div class="thumbnail">
+            <a href="img/facilities/hostel_room.jpg">
+                <img src="img/facilities/hostel_room.jpg" alt="Hostel Room" >
+            </a></div></div>
+        <div class="col-md-5">
+            <h1>Hostel Room</h1>
+            <p>
+                Hostel rooms are exclusively designed for single occupancy and are less with steel bed with night stand, table, chair, big cupboard, and various electrical facilities. Internet facility is provided in each rooms.
+            </p>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-3"><div class="thumbnail">
+            <a href="img/facilities/library.jpg">
+                <img src="img/facilities/library.jpg" alt="Library Room" >
+            </a></div></div>
+        <div class="col-md-5">
+            <h1>Library</h1>
+            <p>
+                Lohit has its very own mini library with books of all genres which the boarders can issue and read. Newspapers and magazines are also available in the reading room.
+            <div class="container-fluid" style="text-align: right">
+            <h4><a class="" style="text-decoration: none" href="https://goo.gl/VoeLAA" target="_blank">List of books</a></h4>
+            </div>
+            </p>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-3"><div class="thumbnail">
+            <a href="img/facilities/tv_room.jpg">
+                <img src="img/facilities/tv_room.jpg" alt="TV Room" >
+            </a></div></div>
+        <div class="col-md-5">
+            <h1>TV Room</h1>
+            <p>
+                Lohit's Tv room is a bustling place where the boarders can often be found enjoying various TV programs and movies together. It is open 24/7 and has satellite connection.
+            </p>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-3"><div class="thumbnail">
+            <a href="img/facilities/music_room.bmp">
+                <img src="img/facilities/music_room.bmp" alt="Music Room" >
+            </a></div></div>
+        <div class="col-md-5">
+            <h1>Music Room</h1>
+            <p>
+                "Music is a piece of art that goes from the ears straight into the heart." The hostel music room currently has four musical instruments, viz. two guitars, one keyboard and one drum set. Hostel boarders have access to these once they deposit their id cards at the security desk.
+            </p>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-3"><div class="thumbnail">
+            <a href="img/facilities/gym_room.bmp">
+                <img src="img/facilities/gym_room.bmp" alt="Gym Room" >
+            </a></div></div>
+        <div class="col-md-5">
+            <h1>Gym Room</h1>
+            <p>
+                We all need to be fit in order to look and fell good. Sport and relaxation should be important part of life of each of us. Fitness and sport are here to help us to look good and to feel good.
+            </p>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-3"><div class="thumbnail">
+            <a href="img/facilities/sports_room.bmp">
+                <img src="img/facilities/sports_room.bmp" alt="Sports Room" >
+            </a></div></div>
+        <div class="col-md-5">
+            <h1>Sports Room</h1>
+            <p>
+                Sports facilities include two table tennis tables in the sports room along with two carroms. The hostel also houses chess boards for the boarders to flex their minds.
+                Badminton, cricket equipment, football, volleyball and all common sports equipment are available for boarders.
+            <div class="container-fluid" style="text-align: right">
+                <h4><a class="" style="text-decoration: none" href="doc/sports_equi.pdf" target="_blank">Sports Equipment</a></h4>
+            </div>
+            </p>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-3"><div class="thumbnail">
+            <a href="img/facilities/kriti_room.jpg">
+                <img src="img/facilities/kriti_room.jpg" alt="Kriti Room" >
+            </a></div></div>
+        <div class="col-md-5">
+            <h1><a href="facilities/kriti_room.html" style="text-decoration: none;">Kriti Room</a></h1>
+            <p>
+                Kriti room is exclusively used in INTER HOSTEL TECHNICAL AND MANAGEMENT COMPITITION- KRITI for making various types of robots, bots etc. Idea behind to make Kriti room is to give a facility to hostel boarders to utilize large space and hostel equipments for student’s projects.
+            </p>
+            <div class="container-fluid" style="text-align: right">
+                <h4><a class="" style="text-decoration: none" href="doc/tech_equi.pdf" target="_blank">Technical Equipment</a></h4>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+<div class="footer" style="margin-right: 10%;margin-left: 10%;">
+    <h4 style="text-align: center">Designed and Maintained by <a href="https://www.facebook.com/pavan71198" target="_blank" style="text-decoration: none">Pavan Kumar</a></h4>
+</div>
+</body>
+</html>

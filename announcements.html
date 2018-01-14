@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lohit Hostel</title>
+    <link rel="shortcut icon" type="image/x-icon" href="logo.jpg" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .dropdown-submenu {
+            position: relative;
+        }
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+        }
+
+        .navbar-nav a{
+            font-size:large;
+        }
+        .navbar-brand{
+            font-size: x-large;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="font-family: 'Bradley Hand ITC';color:#ff8800;"><b><i>Lohit Hostel</i></b></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Administration</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2017-18</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="admin/2017/hmc.html">HMC</a></li>
+                                <li><a tabindex="-1" href="admin/2017/mmc.html">MMC</a></li>
+                                <li><a tabindex="-1" href="admin/2017/arc.html">Anti Ragging Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2016-17</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="admin/2016/hmc.html">HMC</a></li>
+                                <li><a tabindex="-1" href="admin/2016/mmc.html">MMC</a></li>
+                                <li><a tabindex="-1" href="admin/2016/arc.html">Anti Ragging Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2015-16</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="admin/2015/hmc.html">HMC</a></li>
+                                <li><a href="admin/2015/mmc.html">MMC</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="boarders.html">Boarders</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Intra-Hostel Competitions</a>
+                    <ul  class="dropdown-menu">
+                        <li><a href="ihc/kriti.html">Kriti</a></li>
+                        <li><a href="ihc/manthan.html">Manthan</a></li>
+                        <li><a href="ihc/spardha.html">Spardha</a></li>
+                    </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Suggestion Forms</a>
+                    <ul  class="dropdown-menu">
+                        <li><a href="sugg/mess_sugg.html">Mess Suggestion Form</a></li>
+                        <li><a href="sugg/maint_sugg.html">Maintenance Suggestion Form</a></li>
+                    </ul>
+                </li>
+                <li><a href="policies.html">Hostel Policies</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<script>
+    $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+        });
+    });
+</script>
+<div class="container-fluid">
+    <div id="3" class="container">
+        <h1>Announcement 3</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit arcu risus, a mollis lacus rutrum sed. Vivamus accumsan felis a sodales aliquet. Nam sagittis molestie risus, eu placerat metus gravida ac. Aliquam porttitor sem volutpat, laoreet nisi vel, convallis elit. Integer egestas quam nec nisl suscipit, quis hendrerit tellus facilisis. Sed feugiat elit at nisi porttitor elementum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam fringilla sapien erat, et molestie nisi elementum vel. Integer ullamcorper, odio id dictum posuere, augue augue congue magna, ac fermentum erat nisl non justo. Nullam consectetur libero nec feugiat pellentesque. Nam dignissim massa eu leo viverra, in euismod arcu aliquet. Suspendisse quis est sem. Aliquam eget luctus mi.
+
+            Aliquam at molestie metus. Mauris id aliquet lectus. Vestibulum semper sapien ornare neque venenatis malesuada. Donec massa nibh, fringilla egestas tincidunt ut, sagittis et justo. Vestibulum scelerisque hendrerit eros id sagittis. Aenean vehicula nisi in neque tempor varius. Mauris viverra vestibulum urna sodales porttitor. Pellentesque egestas placerat lectus, vel eleifend nunc luctus eget.
+
+            Morbi porttitor turpis et sodales molestie. Nam id congue tortor. Suspendisse mi tortor, dapibus in convallis a, varius non enim. Nullam nec sodales dui, ac tincidunt risus. Cras et fringilla neque. Integer efficitur sem sapien, a blandit enim ultricies at. Integer tempor tortor vitae nisi malesuada, vel dictum ipsum tempor. Donec luctus a ex et scelerisque. Proin vulputate fringilla quam, ut scelerisque arcu aliquam sed. Morbi vitae dictum libero. In malesuada nulla vitae sodales rutrum. Etiam volutpat dictum turpis. Duis nec neque placerat, pretium urna et, maximus augue.
+
+            Praesent tincidunt eros sit amet venenatis posuere. Nullam sit amet lectus tortor. Morbi aliquet sollicitudin ex eu ultrices. Nullam consectetur est dolor, vitae sodales arcu congue quis. Proin nec sodales ex, at viverra mi. Aenean non scelerisque sem, eu ullamcorper orci. Donec condimentum eu massa quis pharetra. Aenean aliquam dapibus nisi, tincidunt tempor ipsum tincidunt a. Integer quis posuere elit. Quisque leo risus, dignissim vitae quam ac, sodales rhoncus metus. Morbi tristique accumsan ullamcorper. Phasellus ipsum neque, rhoncus et urna nec, sollicitudin fermentum odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer hendrerit ante diam, a vehicula enim auctor vestibulum.
+
+            Maecenas sit amet ipsum ornare, euismod libero vel, rhoncus nisl. Sed eget tempus nisi. Nulla vel erat vitae metus blandit aliquet. Integer aliquet, mauris vulputate lobortis egestas, felis magna fermentum erat, eget suscipit leo arcu feugiat tellus. Aenean odio arcu, vestibulum sed fringilla a, lobortis non ligula. Proin interdum quam sed scelerisque auctor. Mauris fringilla neque quis augue porta, dictum maximus urna vulputate.     
+        </p>
+    </div>
+    <div id="2" class="container">
+        <h1>Announcement 2</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit arcu risus, a mollis lacus rutrum sed. Vivamus accumsan felis a sodales aliquet. Nam sagittis molestie risus, eu placerat metus gravida ac. Aliquam porttitor sem volutpat, laoreet nisi vel, convallis elit. Integer egestas quam nec nisl suscipit, quis hendrerit tellus facilisis. Sed feugiat elit at nisi porttitor elementum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam fringilla sapien erat, et molestie nisi elementum vel. Integer ullamcorper, odio id dictum posuere, augue augue congue magna, ac fermentum erat nisl non justo. Nullam consectetur libero nec feugiat pellentesque. Nam dignissim massa eu leo viverra, in euismod arcu aliquet. Suspendisse quis est sem. Aliquam eget luctus mi.
+            Aliquam at molestie metus. Mauris id aliquet lectus. Vestibulum semper sapien ornare neque venenatis malesuada. Donec massa nibh, fringilla egestas tincidunt ut, sagittis et justo. Vestibulum scelerisque hendrerit eros id sagittis. Aenean vehicula nisi in neque tempor varius. Mauris viverra vestibulum urna sodales porttitor. Pellentesque egestas placerat lectus, vel eleifend nunc luctus eget. 
+        </p>
+    </div>
+    <div id="1" class="container">
+        <h1>Announcement 1</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit arcu risus, a mollis lacus rutrum sed. Vivamus accumsan felis a sodales aliquet. Nam sagittis molestie risus, eu placerat metus gravida ac. Aliquam porttitor sem volutpat, laoreet nisi vel, convallis elit. Integer egestas quam nec nisl suscipit, quis hendrerit tellus facilisis. Sed feugiat elit at nisi porttitor elementum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam fringilla sapien erat, et molestie nisi elementum vel. Integer ullamcorper, odio id dictum posuere, augue augue congue magna, ac fermentum erat nisl non justo. Nullam consectetur libero nec feugiat pellentesque. Nam dignissim massa eu leo viverra, in euismod arcu aliquet. Suspendisse quis est sem. Aliquam eget luctus mi.
+            Aliquam at molestie metus. Mauris id aliquet lectus. Vestibulum semper sapien ornare neque venenatis malesuada. Donec massa nibh, fringilla egestas tincidunt ut, sagittis et justo. Vestibulum scelerisque hendrerit eros id sagittis. Aenean vehicula nisi in neque tempor varius. Mauris viverra vestibulum urna sodales porttitor. Pellentesque egestas placerat lectus, vel eleifend nunc luctus eget. 
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

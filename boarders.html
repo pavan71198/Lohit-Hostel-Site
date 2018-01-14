@@ -1,0 +1,7355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lohit Hostel</title>
+    <link rel="shortcut icon" type="image/x-icon" href="logo.jpg" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .dropdown-submenu {
+            position: relative;
+        }
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+        }
+
+        .navbar-nav a{
+            font-size:large;
+        }
+        .navbar-brand{
+            font-size: x-large;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="font-family: 'Bradley Hand ITC';color:#ff8800;"><b><i>Lohit Hostel</i></b></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Administration</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2017-18</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="admin/2017/hmc.html">HMC</a></li>
+                                <li><a tabindex="-1" href="admin/2017/mmc.html">MMC</a></li>
+                                <li><a tabindex="-1" href="admin/2017/arc.html">Anti Ragging Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2016-17</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="admin/2016/hmc.html">HMC</a></li>
+                                <li><a tabindex="-1" href="admin/2016/mmc.html">MMC</a></li>
+                                <li><a tabindex="-1" href="admin/2016/arc.html">Anti Ragging Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2015-16</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="admin/2015/hmc.html">HMC</a></li>
+                                <li><a href="admin/2015/mmc.html">MMC</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="boarders.html">Boarders</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Intra-Hostel Competitions</a>
+                    <ul  class="dropdown-menu">
+                        <li><a href="ihc/kriti.html">Kriti</a></li>
+                        <li><a href="ihc/manthan.html">Manthan</a></li>
+                        <li><a href="ihc/spardha.html">Spardha</a></li>
+                    </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Suggestion Forms</a>
+                    <ul  class="dropdown-menu">
+                        <li><a href="sugg/mess_sugg.html">Mess Suggestion Form</a></li>
+                        <li><a href="sugg/maint_sugg.html">Maintenance Suggestion Form</a></li>
+                    </ul>
+                </li>
+                <li><a href="policies.html">Hostel Policies</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<script>
+    $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+        });
+    });
+</script>
+
+<div class="container-fluid">
+    <table class="table table-bordered table-hover">
+        <tbody>
+        <thead>
+        <th>Room No</th>
+        <th>Name</th>
+        <th>Roll No</th>
+        <th>Degree</th>
+        <th>Student</th>
+        <th>Department</th>
+        <th>Webmail</th>
+        </tr>
+        <tr>
+        <td>A-001</td>
+        <td>RAJIV RAMESH SANGLE</td>
+        <td>170121035</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-002</td>
+        <td>SUJAY JADHAV</td>
+        <td>140121039</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>sujay.2014</td>
+        </tr>
+        <tr>
+        <td>A-003</td>
+        <td>ALOK URMALIYA</td>
+        <td>170102006</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-004</td>
+        <td>ADITYA KAKOTI</td>
+        <td>170104005</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>kakot170104005</td>
+        </tr>
+        <tr>
+        <td>A-005</td>
+        <td>ANANYA MANOHAR</td>
+        <td>170103006</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>anany170103006</td>
+        </tr>
+        <tr>
+        <td>A-006</td>
+        <td>BHOSALE RUTVIJ</td>
+        <td>170108010</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>rutvi170108010</td>
+        </tr>
+        <tr>
+        <td>A-007</td>
+        <td>REGINTHALA MAHESH</td>
+        <td>170102054</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>mahes170102054</td>
+        </tr>
+        <tr>
+        <td>A-008</td>
+        <td>BRAJESH KUMAR</td>
+        <td>170103020</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>braje170103020</td>
+        </tr>
+        <tr>
+        <td>A-009</td>
+        <td>REET AKSHAT</td>
+        <td>170108030</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-010</td>
+        <td>AMAN KUMAR JAIN</td>
+        <td>170104012</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>aman170104012</td>
+        </tr>
+        <tr>
+        <td>A-011</td>
+        <td>VIKAS PRAJAPATI</td>
+        <td>170102069</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>vikas170102069</td>
+        </tr>
+        <tr>
+        <td>A-012</td>
+        <td>ASHISH POONIA</td>
+        <td>170106015</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>ashis170106015</td>
+        </tr>
+        <tr>
+        <td>A-013</td>
+        <td>ADNAN AHMAD</td>
+        <td>170104008</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>adnan170104008</td>
+        </tr>
+        <tr>
+        <td>A-014</td>
+        <td>ANIKET RAJPUT</td>
+        <td>4014088</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>aniket170101007</td>
+        </tr>
+        <tr>
+        <td>A-015</td>
+        <td>MAHENDRA YADAV</td>
+        <td>170104043</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-016</td>
+        <td>SANSKAR SINGHAI</td>
+        <td>170122039</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>sansk170122039</td>
+        </tr>
+        <tr>
+        <td>A-017</td>
+        <td>BHANU PRASAD LOUDYA</td>
+        <td>170102018</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>bhanu170102018</td>
+        </tr>
+        <tr>
+        <td>A-018</td>
+        <td>PULKIT KHATOR</td>
+        <td>170107051</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>pulki170107051</td>
+        </tr>
+        <tr>
+        <td>A-019</td>
+        <td>UTTAM KUMAR</td>
+        <td>170122048</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>uttan170122048</td>
+        </tr>
+        <tr>
+        <td>A-020</td>
+        <td>KARTIK GUPTA</td>
+        <td>170101030</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>gupta170101030</td>
+        </tr>
+        <tr>
+        <td>A-021</td>
+        <td>KRISHNA</td>
+        <td>170107027</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>krish170107027</td>
+        </tr>
+        <tr>
+        <td>A-022</td>
+        <td>JIVESH</td>
+        <td>170106024</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>jives170106024</td>
+        </tr>
+        <tr>
+        <td>A-023</td>
+        <td>Arun Sathyan</td>
+        <td>16PCE062</td>
+        <td>M.Tech Trainee</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-024</td>
+        <td>AMIT TIWARI</td>
+        <td>170122002</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>amit17012200</td>
+        </tr>
+        <tr>
+        <td>A-025</td>
+        <td>SHREYAS DIXIT</td>
+        <td>170102060</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>shrey170102060</td>
+        </tr>
+        <tr>
+        <td>A-026</td>
+        <td>NANDANIYA CHIRAG LAXMANBHAI</td>
+        <td>170104040</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>chira170104049</td>
+        </tr>
+        <tr>
+        <td>A-027</td>
+        <td>KARTIK SETHI</td>
+        <td>170104068</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-028</td>
+        <td>VIKAS MEENA</td>
+        <td>170104078</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>vikas170104078</td>
+        </tr>
+        <tr>
+        <td>A-029</td>
+        <td>Abhishek Singh</td>
+        <td>176105101</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-030</td>
+        <td>Alakesh Kalita</td>
+        <td>176101102</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>alkesh.kalita1025 @gmail3</td>
+        </tr>
+        <tr>
+        <td>A-031</td>
+        <td>ATUL KUMAR</td>
+        <td>170121009</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>atul170121009</td>
+        </tr>
+        <tr>
+        <td>A-032</td>
+        <td>KUNAL</td>
+        <td>170107028</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>kunal170107028</td>
+        </tr>
+        <tr>
+        <td>A-033</td>
+        <td>THIRUMARAN V</td>
+        <td>170205039</td>
+        <td>BDes</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>thiru170205039</td>
+        </tr>
+        <tr>
+        <td>A-034</td>
+        <td>MRINAL KANTI MAHATO</td>
+        <td>170102041</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>kanti170102041</td>
+        </tr>
+        <tr>
+        <td>A-035</td>
+        <td>BUSWALA NITESH KAMLESH</td>
+        <td>170102025</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-036</td>
+        <td>DUPPALA SREE CHANDRA</td>
+        <td>170108014</td>
+        <td>B TECH</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>chand170108014</td>
+        </tr>
+        <tr>
+        <td>A-037</td>
+        <td>RAGHAV AGGARWAL</td>
+        <td>170103048</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>ragha170105048</td>
+        </tr>
+        <tr>
+        <td>A-038</td>
+        <td>AVI KUMAR</td>
+        <td>170107012</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>avi170107012</td>
+        </tr>
+        <tr>
+        <td>A-039</td>
+        <td>Nikhil </td>
+        <td>170106038</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>nikhil170106038</td>
+        </tr>
+        <tr>
+        <td>B-001</td>
+        <td>SHIVAM RAJ</td>
+        <td>170104068</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>raj170104068</td>
+        </tr>
+        <tr>
+        <td>B-002</td>
+        <td>PRANSHU SRIVAS</td>
+        <td>170101048</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>prans170101048</td>
+        </tr>
+        <tr>
+        <td>B-003</td>
+        <td>SWAGATAM DAS</td>
+        <td>170122046</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-004</td>
+        <td>Bojja sai Preetham</td>
+        <td>170123015</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-005</td>
+        <td>PIYUSH GUPTA</td>
+        <td>170101045</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>piyus170101045</td>
+        </tr>
+        <tr>
+        <td>B-006</td>
+        <td>MAYANK WADHWANI</td>
+        <td>170101038</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-007</td>
+        <td>RATHOD MEET SATISH</td>
+        <td>170103055</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>meet170103055</td>
+        </tr>
+        <tr>
+        <td>B-008</td>
+        <td>ANKIT KUMAR SAINI</td>
+        <td>170107009</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>ankit170107009</td>
+        </tr>
+        <tr>
+        <td>B-009</td>
+        <td>NARENDRA KUMAR</td>
+        <td>170103039</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>krnarendra927</td>
+        </tr>
+        <tr>
+        <td>B-010</td>
+        <td>NEERAJ KUMAR RATHORE</td>
+        <td>170107042</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>neera170107042</td>
+        </tr>
+        <tr>
+        <td>B-011</td>
+        <td>Varun Saxena</td>
+        <td>156106030</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-012</td>
+        <td>PRANAV GOEL</td>
+        <td>170102050</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-013</td>
+        <td>RUSHIKESH TARALEKAR</td>
+        <td>170205031</td>
+        <td>BDes</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>rushi170205031</td>
+        </tr>
+        <tr>
+        <td>B-014</td>
+        <td>SANCHIT</td>
+        <td>170101060</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>sanch170101060</td>
+        </tr>
+        <tr>
+        <td>B-015</td>
+        <td>ASHISH BHASKAR</td>
+        <td>170107011</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>ashis170107011</td>
+        </tr>
+        <tr>
+        <td>B-016</td>
+        <td>LAKSHYA</td>
+        <td>170121022</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>lakshyadaukiya3</td>
+        </tr>
+        <tr>
+        <td>B-017</td>
+        <td>KRITIK RATHORE</td>
+        <td>170122023</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>ratho170122023</td>
+        </tr>
+        <tr>
+        <td>B-018</td>
+        <td>VIVEK KUMAR</td>
+        <td>170121050</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>EP</td>
+        <td>vivek170121050</td>
+        </tr>
+        <tr>
+        <td>B-019</td>
+        <td>BASANT KUMAR</td>
+        <td>170104022</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>kumar170104022</td>
+        </tr>
+        <tr>
+        <td>B-020</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-021</td>
+        <td>SAYALKUMAR SUBHASH HAJARE</td>
+        <td>170101062</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>sayal170101062</td>
+        </tr>
+        <tr>
+        <td>B-022</td>
+        <td>PARAG AGRAWAL</td>
+        <td>170108028</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>parag170108028</td>
+        </tr>
+        <tr>
+        <td>B-023</td>
+        <td>RISHABH SINGH</td>
+        <td>170205029</td>
+        <td>BDESN</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>singh170205029</td>
+        </tr>
+        <tr>
+        <td>B-024</td>
+        <td>CHINMAYA K</td>
+        <td>170121013</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>EP</td>
+        <td>k170121013</td>
+        </tr>
+        <tr>
+        <td>B-025</td>
+        <td>Amit Shikari</td>
+        <td>176122103</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>amitshikari2010@gmail</td>
+        </tr>
+        <tr>
+        <td>B-026</td>
+        <td>RAJANALA HARSHAVARDHAN REDDY</td>
+        <td>170101051</td>
+        <td>BTech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>ranjan170101051</td>
+        </tr>
+        <tr>
+        <td>B-027</td>
+        <td>RAHUL VADDEPALLY</td>
+        <td>170102053</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>rahul170102053</td>
+        </tr>
+        <tr>
+        <td>B-028</td>
+        <td>VIPUL SHRIVASTAVA</td>
+        <td>170122050</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>vipul170122050</td>
+        </tr>
+        <tr>
+        <td>B-029</td>
+        <td>TRIKAY NALAMADA</td>
+        <td>170122047</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>nalam170122047</td>
+        </tr>
+        <tr>
+        <td>B-030</td>
+        <td>SIDDHESH JITENDRA METKAR</td>
+        <td>170106057</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>siddh170106057</td>
+        </tr>
+        <tr>
+        <td>B-031</td>
+        <td>SAMAD FARAZ</td>
+        <td>170106049</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-032</td>
+        <td>MOHIT KUMAR MEENA</td>
+        <td>170123037</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>mohit170123037</td>
+        </tr>
+        <tr>
+        <td>B-033</td>
+        <td>Ritam Majumdar</td>
+        <td>17007030</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>ritam170107030</td>
+        </tr>
+        <tr>
+        <td>B-034</td>
+        <td>VISHAL SHRIVASTAVA</td>
+        <td>170104079</td>
+        <td>B.TECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>visha170104079</td>
+        </tr>
+        <tr>
+        <td>B-035</td>
+        <td>Cleaner store</td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-036</td>
+        <td> Mukesh  Sharma</td>
+        <td>176103006</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>mukes176103006</td>
+        </tr>
+        <tr>
+        <td>B-037</td>
+        <td>UPENDRA KUMAR</td>
+        <td>170102065</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-038</td>
+        <td>TAPAN MAYUKH</td>
+        <td>1701021048</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>tapan170121048</td>
+        </tr>
+        <tr>
+        <td>B-039</td>
+        <td>SOMRAJ</td>
+        <td>170104071</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>somra170104071</td>
+        </tr>
+        <tr>
+        <td>B-040</td>
+        <td>KAMAL KANT</td>
+        <td>170104039</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>kamal170104097</td>
+        </tr>
+        <tr>
+        <td>B-041</td>
+        <td>LAVISH GULATI</td>
+        <td>170123030</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>gulat170123030</td>
+        </tr>
+        <tr>
+        <td>B-042</td>
+        <td>RAHUL SAROHA</td>
+        <td>170106047</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>rahul170106047</td>
+        </tr>
+        <tr>
+        <td>B-043</td>
+        <td>ANUP PRAKASH POHANEY</td>
+        <td>170121005</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>anup170121005</td>
+        </tr>
+        <tr>
+        <td>B-044</td>
+        <td>RAVI SHANKAR</td>
+        <td>170101053</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>ravi170101053</td>
+        </tr>
+        <tr>
+        <td>B-045</td>
+        <td>ANUBHAV TYAGI</td>
+        <td>170101009</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>tyagi170101009</td>
+        </tr>
+        <tr>
+        <td>B-046</td>
+        <td>VAKUL GUPTA</td>
+        <td>170101076</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>vakul170101076</td>
+        </tr>
+        <tr>
+        <td>B-047</td>
+        <td>RAMAVARAPU ACHYUT</td>
+        <td>170103054</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>ramav170103054</td>
+        </tr>
+        <tr>
+        <td>B-048</td>
+        <td>ABHAY JIT SINGH SANDHU</td>
+        <td>170102001</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-049</td>
+        <td>UDBHAV CHUGH</td>
+        <td>170123005</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>udbha170123055</td>
+        </tr>
+        <tr>
+        <td>B-050</td>
+        <td>JAY PRAKASH SONI</td>
+        <td>170104037</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>jay170104037</td>
+        </tr>
+        <tr>
+        <td>B-051</td>
+        <td>JAYANT PATIDAR</td>
+        <td>170123022</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-052</td>
+        <td>SHIVAM KUMAR</td>
+        <td>170104067</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>shiva170104067</td>
+        </tr>
+        <tr>
+        <td>B-053</td>
+        <td>UNMESH AJAY DESALE</td>
+        <td>170107066</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>ajay170107066</td>
+        </tr>
+        <tr>
+        <td>B-054</td>
+        <td>KATRAGADDA PRAPHULLA VASUDHAR</td>
+        <td>170102029</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>vasud170102029</td>
+        </tr>
+        <tr>
+        <td>C-001</td>
+        <td>HEMANTH KUMAR CHINTA</td>
+        <td>170103027</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-002</td>
+        <td>RAHUL KUSHWAHA</td>
+        <td>170103050</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-003</td>
+        <td>ROHAN NIGAM</td>
+        <td>170101055</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>rohan170101055</td>
+        </tr>
+        <tr>
+        <td>C-004</td>
+        <td>NISHIT GAUR</td>
+        <td>170108027</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-005</td>
+        <td>RAJESH CHAUHAN</td>
+        <td>170107052</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>rajes170107052</td>
+        </tr>
+        <tr>
+        <td>C-006</td>
+        <td>VIGNESH KUMAR S</td>
+        <td>170205043</td>
+        <td>BDES</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>S170205043</td>
+        </tr>
+        <tr>
+        <td>C-007</td>
+        <td>RUTVIK GHUGHAL</td>
+        <td>170101057</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>rutvi170101057</td>
+        </tr>
+        <tr>
+        <td>C-008</td>
+        <td>MOHIT DHAKA</td>
+        <td>170123036</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-009</td>
+        <td>SAYAN ATTA</td>
+        <td>162122036</td>
+        <td>MSC</td>
+        <td>Student</td>
+        <td> </td>
+        <td>sayanatta</td>
+        </tr>
+        <tr>
+        <td>C-010</td>
+        <td>ANURAG NAYAK</td>
+        <td>170104018</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-011</td>
+        <td>MANAN GUPTA</td>
+        <td>170101035</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>B.Tech</td>
+        <td>manan170101035</td>
+        </tr>
+        <tr>
+        <td>C-012</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-013</td>
+        <td>NITESH KUMAR</td>
+        <td>170104053</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>nitesh170104053</td>
+        </tr>
+        <tr>
+        <td>C-014</td>
+        <td>PUSHPENDRA MEENA</td>
+        <td>170104060</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-015</td>
+        <td>ANIKET JAIN</td>
+        <td>170104014</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>anike170104014</td>
+        </tr>
+        <tr>
+        <td>C-016</td>
+        <td>SURYANSH PRABHAT</td>
+        <td>170107064</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>surya170107064</td>
+        </tr>
+        <tr>
+        <td>C-017</td>
+        <td>ATUL GAUTAM</td>
+        <td>170103016</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>atul170103016</td>
+        </tr>
+        <tr>
+        <td>C-018</td>
+        <td>PRABAL SINGH</td>
+        <td>170101045</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>parba170107045</td>
+        </tr>
+        <tr>
+        <td>C-019</td>
+        <td>ANSHUL SHARMA</td>
+        <td>170107010</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>anshu170107010</td>
+        </tr>
+        <tr>
+        <td>C-020</td>
+        <td>DIVYAM SHAURYA</td>
+        <td>170107017</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>shaur170107017</td>
+        </tr>
+        <tr>
+        <td>C-021</td>
+        <td>ANMOL RATAN</td>
+        <td>170205005</td>
+        <td>BDes</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>anmol170205005</td>
+        </tr>
+        <tr>
+        <td>C-022</td>
+        <td>DISHANK BADADWAL</td>
+        <td>170103023</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-023</td>
+        <td>CHETAN SUBHASH NETNE</td>
+        <td>170122012</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-024</td>
+        <td>JACOB STEPHEN</td>
+        <td>170205008</td>
+        <td>BDes</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>jacob170205008</td>
+        </tr>
+        <tr>
+        <td>C-025</td>
+        <td>ASHISH KUMAR MEENA</td>
+        <td>170103010</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>meena170103010</td>
+        </tr>
+        <tr>
+        <td>C-026</td>
+        <td>SHIVASISH BISWAL</td>
+        <td>170103010</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>dhiva170103063</td>
+        </tr>
+        <tr>
+        <td>C-027</td>
+        <td>RAHUL MEEL</td>
+        <td>170103051</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>rahul170103051</td>
+        </tr>
+        <tr>
+        <td>C-028</td>
+        <td>SATYAM SARAN</td>
+        <td>170107057</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>saran170107057</td>
+        </tr>
+        <tr>
+        <td>C-029</td>
+        <td>B NITISH KUMAR</td>
+        <td>170102017</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>b170102017</td>
+        </tr>
+        <tr>
+        <td>C-030</td>
+        <td>RAJANALA PRASAD</td>
+        <td>170205028</td>
+        <td>BDes</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>prasa170205028</td>
+        </tr>
+        <tr>
+        <td>C-031</td>
+        <td>SREENIDHI SHAMANTH N</td>
+        <td>170123049</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>sreen170123049</td>
+        </tr>
+        <tr>
+        <td>C-032</td>
+        <td>MD AASIF HUSSAIN</td>
+        <td>170104046</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>aasif170104046</td>
+        </tr>
+        <tr>
+        <td>C-033</td>
+        <td>BHABESH BORO</td>
+        <td>170106017</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-034</td>
+        <td>PRATYUSH KISHORE</td>
+        <td>170102051</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>party170102051</td>
+        </tr>
+        <tr>
+        <td>C-035</td>
+        <td> Umang Harshadbhai Rathod</td>
+        <td>174351003</td>
+        <td>MSR</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>umang174351003</td>
+        </tr>
+        <tr>
+        <td>C-036</td>
+        <td>Mohan Kumar sarangi</td>
+        <td>174102041</td>
+        <td>M.Tech EEE</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-037</td>
+        <td>MANAN CHAWLA</td>
+        <td>170107031</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>manan170107031</td>
+        </tr>
+        <tr>
+        <td>C-038</td>
+        <td>VIJAY MEENA</td>
+        <td>174104024</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>vijay174104124</td>
+        </tr>
+        <tr>
+        <td>C-039</td>
+        <td>RISHABH SARKAR</td>
+        <td>170122036</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-001</td>
+        <td>AMRIT  ANAND</td>
+        <td>172241003</td>
+        <td>MA</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>amrit172241003</td>
+        </tr>
+        <tr>
+        <td>D-002</td>
+        <td> Debabrata Senapati</td>
+        <td>176101003</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>debab176101003</td>
+        </tr>
+        <tr>
+        <td>D-003</td>
+        <td>MUHAMMAD  IQBAL KK</td>
+        <td>172241022</td>
+        <td>MA</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>iqbal172241022</td>
+        </tr>
+        <tr>
+        <td>D-004</td>
+        <td>Md. Shakeel Iqbal Saikia</td>
+        <td>176101004</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>shakeel</td>
+        </tr>
+        <tr>
+        <td>D-005</td>
+        <td>SHUBHAM  SACHAN</td>
+        <td>172241034</td>
+        <td>MA</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>shubh172241034</td>
+        </tr>
+        <tr>
+        <td>D-006</td>
+        <td>Ankit Pratim Goswami</td>
+        <td>176104105</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>ankit90859</td>
+        </tr>
+        <tr>
+        <td>D-007</td>
+        <td>Deepen Naoren</td>
+        <td>P/s</td>
+        <td>P/S</td>
+        <td> </td>
+        <td> </td>
+        <td>deepenaorun</td>
+        </tr>
+        <tr>
+        <td>D-008</td>
+        <td> Swagat Ranjan Sahoo</td>
+        <td>176101011</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>swaga176101011</td>
+        </tr>
+        <tr>
+        <td>D-009</td>
+        <td> Loitongbam Gyanendro Singh</td>
+        <td>176101012</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>gyanendraol9</td>
+        </tr>
+        <tr>
+        <td>D-010</td>
+        <td>SHASHANK SHARMA</td>
+        <td>170107059</td>
+        <td>BTECH</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>shash170107059</td>
+        </tr>
+        <tr>
+        <td>D-011</td>
+        <td> Pratanu Kumar Goswami</td>
+        <td>176102003</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>prata176102003</td>
+        </tr>
+        <tr>
+        <td>D-012</td>
+        <td> Manojkumar Rampelli</td>
+        <td>176102004</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>manoj176102004</td>
+        </tr>
+        <tr>
+        <td>D-013</td>
+        <td> Samarjeet Das</td>
+        <td>176102005</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>samar176102005</td>
+        </tr>
+        <tr>
+        <td>D-014</td>
+        <td> Pran Jyoti Saikia</td>
+        <td>176103002</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>pranjyoti422</td>
+        </tr>
+        <tr>
+        <td>D-015</td>
+        <td> Krishan Chand</td>
+        <td>176103004</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>krish176103004</td>
+        </tr>
+        <tr>
+        <td>D-016</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-017</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-018</td>
+        <td>Sanchit Sood</td>
+        <td>174102045</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>sood174102045</td>
+        </tr>
+        <tr>
+        <td>D-019</td>
+        <td> Nitish Bhardwaj</td>
+        <td>176103008</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>nitis176103008</td>
+        </tr>
+        <tr>
+        <td>D-020</td>
+        <td> Jyotindra Narayan</td>
+        <td>176103009</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>jyoti176103009</td>
+        </tr>
+        <tr>
+        <td>D-021</td>
+        <td> Durgarao Kamireddy</td>
+        <td>176103010</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>durga176103010</td>
+        </tr>
+        <tr>
+        <td>D-022</td>
+        <td>Bimal pratap Singh</td>
+        <td>162122047</td>
+        <td>MSC</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>vimalpratapsingh</td>
+        </tr>
+        <tr>
+        <td>D-023</td>
+        <td>SATYANISHTHA</td>
+        <td>162123042</td>
+        <td>MSC</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-024</td>
+        <td> Amit Prakash Ozarde</td>
+        <td>176103013</td>
+        <td>PhD Temp</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>amit176103013</td>
+        </tr>
+        <tr>
+        <td>D-025</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-026</td>
+        <td> Nilkamal Mahanta</td>
+        <td>176103015</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>nilka176103015</td>
+        </tr>
+        <tr>
+        <td>D-027</td>
+        <td> Mukesh Kumar</td>
+        <td>176103016</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>mukes176103016</td>
+        </tr>
+        <tr>
+        <td>D-028</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-029</td>
+        <td>Mayank Prama</td>
+        <td>152241021</td>
+        <td>MA</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>mayank.paramar</td>
+        </tr>
+        <tr>
+        <td>D-030</td>
+        <td>Ankur Pant</td>
+        <td>164013040</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>ankur2016</td>
+        </tr>
+        <tr>
+        <td>D-031</td>
+        <td>Vijay Kumar garg</td>
+        <td>174102042</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>vijay174102042</td>
+        </tr>
+        <tr>
+        <td>D-032</td>
+        <td> Gyan Ranjan</td>
+        <td>176103027</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>gyan.ranjan</td>
+        </tr>
+        <tr>
+        <td>D-033</td>
+        <td>Gilbert Hinge</td>
+        <td>156104016</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-034</td>
+        <td>Animesh Kundu</td>
+        <td>176103102</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>animesh.kundu</td>
+        </tr>
+        <tr>
+        <td>D-035</td>
+        <td>Kamlesh Singh</td>
+        <td>174102052</td>
+        <td>M.tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>kamal174102052</td>
+        </tr>
+        <tr>
+        <td>D-036</td>
+        <td> Rojimul Hussain</td>
+        <td>176104008</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>rajmul.hussain</td>
+        </tr>
+        <tr>
+        <td>D-037</td>
+        <td> Atma Prakash</td>
+        <td>176104007</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-038</td>
+        <td>VISHNU.K</td>
+        <td>174106058</td>
+        <td>MTECH</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-039</td>
+        <td>Nitesh Kumar</td>
+        <td>162241012</td>
+        <td>MA</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>niteshkumar</td>
+        </tr>
+        <tr>
+        <td>D-040</td>
+        <td> Abhijit Dilip Lade</td>
+        <td>176104013</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>lade176104013</td>
+        </tr>
+        <tr>
+        <td>D-041</td>
+        <td> Kunal Pradhan</td>
+        <td>176104015</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-042</td>
+        <td>Rohit Jharia</td>
+        <td>174102063</td>
+        <td>M.tech</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-043</td>
+        <td> Utla Chandra Sekhar</td>
+        <td>176104018</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>atla176104018</td>
+        </tr>
+        <tr>
+        <td>D-044</td>
+        <td>Bhaskar Pratim Das</td>
+        <td>156104023</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-045</td>
+        <td> Asim Kumar Pathak</td>
+        <td>176105007</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>asimpathak</td>
+        </tr>
+        <tr>
+        <td>D-046</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-047</td>
+        <td> Allampalli Satya Sai Pavan</td>
+        <td>176106014</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>pavan176106014</td>
+        </tr>
+        <tr>
+        <td>D-048</td>
+        <td>Mayur Mahindra Kedare</td>
+        <td>176106004</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>m.kedare</td>
+        </tr>
+        <tr>
+        <td>D-049</td>
+        <td>IMTIAZ POSWAL</td>
+        <td>162122013</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>imtiaz1901</td>
+        </tr>
+        <tr>
+        <td>D-050</td>
+        <td>Anupam Pandey</td>
+        <td>162123008</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>anupam.pandey</td>
+        </tr>
+        <tr>
+        <td>D-051</td>
+        <td>Bidyut Boro</td>
+        <td>174102064</td>
+        <td>M.Tech </td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>boro174102064</td>
+        </tr>
+        <tr>
+        <td>D-052</td>
+        <td>Pranay Sanghvi</td>
+        <td>164101052</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>s.pranay</td>
+        </tr>
+        <tr>
+        <td>D-053</td>
+        <td>Suraj Kumar Panda</td>
+        <td>176106015</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>suraj176106015</td>
+        </tr>
+        <tr>
+        <td>D-054</td>
+        <td>NABAJIT SARKAR</td>
+        <td>164104108</td>
+        <td>Mtech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>nabajit.sarkar</td>
+        </tr>
+        <tr>
+        <td>D-055</td>
+        <td> Arman Mohanty</td>
+        <td>176106018</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>mohan176106018</td>
+        </tr>
+        <tr>
+        <td>D-056</td>
+        <td>Sanandam Bordoloi</td>
+        <td>156104017</td>
+        <td>Phd</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-057</td>
+        <td>Ami Sarma</td>
+        <td>176106021</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-058</td>
+        <td> Pratik Das Gupta</td>
+        <td>176106022</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>prati176106022</td>
+        </tr>
+        <tr>
+        <td>D-059</td>
+        <td> Alok Senapati</td>
+        <td>176106025</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>alok176106025</td>
+        </tr>
+        <tr>
+        <td>D-060</td>
+        <td> Bipra Chatterjee</td>
+        <td>176106026</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>bipra176106026</td>
+        </tr>
+        <tr>
+        <td>D-061</td>
+        <td> Kaustubh Chandrakant Khaire</td>
+        <td>176151005</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>kaust176151005</td>
+        </tr>
+        <tr>
+        <td>D-062</td>
+        <td> Pratik Nag</td>
+        <td>176106027</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>prati176106027</td>
+        </tr>
+        <tr>
+        <td>D-063</td>
+        <td> Bhargav Baruah</td>
+        <td>176107004</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>barua176107004</td>
+        </tr>
+        <tr>
+        <td>D-064</td>
+        <td>PRAKHAR  VINYAS</td>
+        <td>174205017</td>
+        <td>MDes</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>prakh174205017</td>
+        </tr>
+        <tr>
+        <td>D-065</td>
+        <td> Manjesh Kumar</td>
+        <td>176103021</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>manje176103021</td>
+        </tr>
+        <tr>
+        <td>D-066</td>
+        <td>Saiprasad Pati</td>
+        <td>176107007</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>saiprasad</td>
+        </tr>
+        <tr>
+        <td>D-067</td>
+        <td>ASHISH  SHARMA</td>
+        <td>174205004</td>
+        <td>MDes</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>ashis174205004</td>
+        </tr>
+        <tr>
+        <td>D-068</td>
+        <td> Niranjan Kumar Choudhry</td>
+        <td>176103017</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>niran176103017</td>
+        </tr>
+        <tr>
+        <td>D-069</td>
+        <td>ASHISH URANKAR</td>
+        <td>172123007</td>
+        <td>MSc</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>urank172123007</td>
+        </tr>
+        <tr>
+        <td>A-201</td>
+        <td>KRISHNA MOHAN</td>
+        <td>140103030</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Mech</td>
+        <td>krishna.mohan</td>
+        </tr>
+        <tr>
+        <td>A-202</td>
+        <td>Sachin Kumar</td>
+        <td>140121031</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>sachin.2014</td>
+        </tr>
+        <tr>
+        <td>A-203</td>
+        <td>Rahul Meena</td>
+        <td>140103056</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Mech</td>
+        <td>rahul.meena</td>
+        </tr>
+        <tr>
+        <td>A-204</td>
+        <td>ARVIND KUMAR</td>
+        <td>140103015</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Mech</td>
+        <td>arvind.2014</td>
+        </tr>
+        <tr>
+        <td>A-205</td>
+        <td>Rajnandan Choudhury Das</td>
+        <td>140121029</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>d.rajnandan</td>
+        </tr>
+        <tr>
+        <td>A-206</td>
+        <td>RAHUL RAJ GUPTA</td>
+        <td>140101054</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>rahul.gupta</td>
+        </tr>
+        <tr>
+        <td>A-207</td>
+        <td>Chandan Kumar</td>
+        <td>140107019</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>chandan.2014</td>
+        </tr>
+        <tr>
+        <td>A-208</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-209</td>
+        <td>Ricky Gupta </td>
+        <td>140122028</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>g.ricky</td>
+        </tr>
+        <tr>
+        <td>A-210</td>
+        <td>MOODE TAGORE NAIK</td>
+        <td>140104043</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>moode.naik</td>
+        </tr>
+        <tr>
+        <td>A-211</td>
+        <td>Gaurav Varma</td>
+        <td>140104026</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>gaurav.verma</td>
+        </tr>
+        <tr>
+        <td>A-212</td>
+        <td>Bhanu Kothari</td>
+        <td>140102014</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>b.kothari</td>
+        </tr>
+        <tr>
+        <td>A-213</td>
+        <td>VAIBHAV GUPTA</td>
+        <td>140205040</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>vaibhav.gupta</td>
+        </tr>
+        <tr>
+        <td>A-214</td>
+        <td>Y SRIKAR</td>
+        <td>140102071</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>y.srikar</td>
+        </tr>
+        <tr>
+        <td>A-215</td>
+        <td>MAYANK SHUBHANKAR</td>
+        <td>140205020</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>m.subhankar</td>
+        </tr>
+        <tr>
+        <td>A-216</td>
+        <td>Ajay C Anto</td>
+        <td>140104004</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-217</td>
+        <td>Jithin Krishan</td>
+        <td>140103026</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Mech</td>
+        <td>bjithin</td>
+        </tr>
+        <tr>
+        <td>A-218</td>
+        <td>Seralathan VS</td>
+        <td>140123032</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>seralathan</td>
+        </tr>
+        <tr>
+        <td>A-219</td>
+        <td>Roop Singh </td>
+        <td>140104057</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>roop.singh</td>
+        </tr>
+        <tr>
+        <td>A-220</td>
+        <td>Subham Choudhury</td>
+        <td>140121037</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>subham.choudhury</td>
+        </tr>
+        <tr>
+        <td>A-221</td>
+        <td>ARPAN INDORA</td>
+        <td>140101011</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>arpan.indora</td>
+        </tr>
+        <tr>
+        <td>A-222</td>
+        <td>Vaishnav Pawan</td>
+        <td>140123048</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Maths</td>
+        <td>vaishnav</td>
+        </tr>
+        <tr>
+        <td>A-223</td>
+        <td>Soumik Mukhopadhyay</td>
+        <td>140101085</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>soumik</td>
+        </tr>
+        <tr>
+        <td>A-224</td>
+        <td>Aniket Gupta</td>
+        <td>140107011</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>ankit.gupta</td>
+        </tr>
+        <tr>
+        <td>A-225</td>
+        <td>ROSHAN KUMAR MEENA</td>
+        <td>140122029</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>roshan.meena</td>
+        </tr>
+        <tr>
+        <td>A-226</td>
+        <td>SAMIR PANDIT</td>
+        <td>140102054</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>samir.pandit</td>
+        </tr>
+        <tr>
+        <td>A-227</td>
+        <td>RISHAV KARKI</td>
+        <td>140102048</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>k.rishav</td>
+        </tr>
+        <tr>
+        <td>A-228</td>
+        <td>Avnish Nanda</td>
+        <td>140104015</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>avinash.nanda</td>
+        </tr>
+        <tr>
+        <td>A-229</td>
+        <td>ABHISHEK YADAV</td>
+        <td>140101005</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>abhishek.cse</td>
+        </tr>
+        <tr>
+        <td>A-230</td>
+        <td>VISHAL KUMAR</td>
+        <td>140101078</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>vishal.2014</td>
+        </tr>
+        <tr>
+        <td>A-231</td>
+        <td>UTTAM KUMAR</td>
+        <td>140122042</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>uttam.kumar</td>
+        </tr>
+        <tr>
+        <td>A-232</td>
+        <td>VIKRAM SINGH</td>
+        <td>140108047</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>vikram.2014</td>
+        </tr>
+        <tr>
+        <td>A-233</td>
+        <td>JATIN BHATNAGAR</td>
+        <td>140122016</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>j.bhatnagar</td>
+        </tr>
+        <tr>
+        <td>A-234</td>
+        <td>KAILASH CHANDRA GURJAR</td>
+        <td>140107029</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>kailsh.gujar</td>
+        </tr>
+        <tr>
+        <td>A-235</td>
+        <td>SUNIL PHOGAT</td>
+        <td>140104073</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>s.phogat</td>
+        </tr>
+        <tr>
+        <td>A-236</td>
+        <td>Ravndra Prakash Fardoliya</td>
+        <td>140104055</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>r.fardoliya</td>
+        </tr>
+        <tr>
+        <td>A-237</td>
+        <td>AMIT KABI</td>
+        <td>140103010</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Mech</td>
+        <td>amit.kabi</td>
+        </tr>
+        <tr>
+        <td>A-238</td>
+        <td>GAJRAJ SINGH JODHA</td>
+        <td>140103020</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Mech</td>
+        <td>gajraj</td>
+        </tr>
+        <tr>
+        <td>A-239</td>
+        <td>JAYESH MATHUR</td>
+        <td>140101030</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-201</td>
+        <td>Kishore Kr.Padi</td>
+        <td> </td>
+        <td>ME</td>
+        <td>PS</td>
+        <td>Mech</td>
+        <td>kishorkumarp</td>
+        </tr>
+        <tr>
+        <td>B-202</td>
+        <td>Biswanath Saha</td>
+        <td>166154003</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>CRT</td>
+        <td>s.biswanath</td>
+        </tr>
+        <tr>
+        <td>B-203</td>
+        <td> Debojit Paul</td>
+        <td>176122026</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>paul176122026</td>
+        </tr>
+        <tr>
+        <td>B-204</td>
+        <td>Bilal ahmad mir</td>
+        <td>146122034</td>
+        <td> </td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>bilal</td>
+        </tr>
+        <tr>
+        <td>B-205</td>
+        <td>Laxmi Raman Adil</td>
+        <td>146122032</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>laxmi</td>
+        </tr>
+        <tr>
+        <td>B-206</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-207</td>
+        <td> Arindom Bikash Neog</td>
+        <td>176122027</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>bikash176122027</td>
+        </tr>
+        <tr>
+        <td>B-208</td>
+        <td> Tapas Pal</td>
+        <td>176122025</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>tapas176122025</td>
+        </tr>
+        <tr>
+        <td>B-209</td>
+        <td>Rajat Das</td>
+        <td>166102024</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-210</td>
+        <td>Bhaskar Kalita</td>
+        <td>PS</td>
+        <td> </td>
+        <td>PS</td>
+        <td> </td>
+        <td>bhaskar.kalita</td>
+        </tr>
+        <tr>
+        <td>B-211</td>
+        <td>SHUBHAM MALU</td>
+        <td>174104104</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>malu174104104</td>
+        </tr>
+        <tr>
+        <td>B-212</td>
+        <td>Vishnu Kumar</td>
+        <td>2017PS0095</td>
+        <td> </td>
+        <td>P/S</td>
+        <td>BSBE</td>
+        <td>vishnukumar</td>
+        </tr>
+        <tr>
+        <td>B-213</td>
+        <td>Saikat Mirdya</td>
+        <td>176122004</td>
+        <td>PHD </td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>saika176122004</td>
+        </tr>
+        <tr>
+        <td>B-214</td>
+        <td>Dino Moni Singha</td>
+        <td>174102062</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>dino174102062</td>
+        </tr>
+        <tr>
+        <td>B-215</td>
+        <td> Araghni Bhattacharya</td>
+        <td>176122036</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>aragh176122036</td>
+        </tr>
+        <tr>
+        <td>B-216</td>
+        <td>Shashank Sekhar</td>
+        <td>176122038</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>shash176122038</td>
+        </tr>
+        <tr>
+        <td>B-217</td>
+        <td> Pranjal Pratim Das</td>
+        <td>176107027</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>kumar176101005</td>
+        </tr>
+        <tr>
+        <td>B-218</td>
+        <td>Akhinlal K S</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-219</td>
+        <td>Bitan Sardar</td>
+        <td>176122045</td>
+        <td>PHD </td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>bitan176122045</td>
+        </tr>
+        <tr>
+        <td>B-220</td>
+        <td>PRABATH P</td>
+        <td>164104013</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-221</td>
+        <td>AHAMED FIDHA SAID</td>
+        <td>164104004</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-222</td>
+        <td>AMIT DUTTA BANIK</td>
+        <td>2017PS0075</td>
+        <td> </td>
+        <td>PDF</td>
+        <td>Phy</td>
+        <td>amitbanik</td>
+        </tr>
+        <tr>
+        <td>B-223</td>
+        <td>BRIGHT STAR WELL LYNSHING  </td>
+        <td>164104055</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>bright</td>
+        </tr>
+        <tr>
+        <td>B-224</td>
+        <td>Swarup Kumar Tarai</td>
+        <td>176122003</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>tarai176122003</td>
+        </tr>
+        <tr>
+        <td>B-225</td>
+        <td>Shubham Sahu</td>
+        <td>174102061</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>shubh174102061</td>
+        </tr>
+        <tr>
+        <td>B-226</td>
+        <td> Mrityunjoy Barman</td>
+        <td>176123001</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>mritunjoy</td>
+        </tr>
+        <tr>
+        <td>B-227</td>
+        <td>Siddarth S Kumar</td>
+        <td>164205020</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>siddharth2020</td>
+        </tr>
+        <tr>
+        <td>B-228</td>
+        <td> Tathagata Basu</td>
+        <td>176123003</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Maths</td>
+        <td>basu176123003</td>
+        </tr>
+        <tr>
+        <td>B-229</td>
+        <td>Diirendra Kumar Verma</td>
+        <td>176103116</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Mech</td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-230</td>
+        <td>Pramod Reddy</td>
+        <td>160106056</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>pramodangel1</td>
+        </tr>
+        <tr>
+        <td>B-231</td>
+        <td> Avijit Das</td>
+        <td>176123005</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>das176123005</td>
+        </tr>
+        <tr>
+        <td>B-232</td>
+        <td> Buddha Dev Ghosh</td>
+        <td>176123006</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>ghosh176123006</td>
+        </tr>
+        <tr>
+        <td>B-233</td>
+        <td>Biplab Sengyang</td>
+        <td>174102050</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>seng174102050</td>
+        </tr>
+        <tr>
+        <td>B-234</td>
+        <td> Alok Kumar</td>
+        <td>176151007</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>CET</td>
+        <td>alok176151007</td>
+        </tr>
+        <tr>
+        <td>B-235</td>
+        <td> </td>
+        <td>Store Room</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-236</td>
+        <td> Rupam Bhaduri</td>
+        <td>176152005</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td> </td>
+        <td>rupam.bhaduri</td>
+        </tr>
+        <tr>
+        <td>B-237</td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-238</td>
+        <td>Yash Rathore</td>
+        <td>160101077</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-239</td>
+        <td>Akhil Vykuntam</td>
+        <td>160101077</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>akhil.vykuntam</td>
+        </tr>
+        <tr>
+        <td>B-240</td>
+        <td>Shubhanker Jauhari</td>
+        <td>160101070</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CS</td>
+        <td>shubhankarjauhari</td>
+        </tr>
+        <tr>
+        <td>B-241</td>
+        <td>Sumuntra Chudary</td>
+        <td>156102019</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>s.chaudhuri</td>
+        </tr>
+        <tr>
+        <td>B-242</td>
+        <td>Ravi Venkata Naga Pavan Kumar</td>
+        <td>160101054</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>pavan71198</td>
+        </tr>
+        <tr>
+        <td>B-243</td>
+        <td>Philip Bernstein Saynik</td>
+        <td>156151004</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-244</td>
+        <td> Aquib Jawed</td>
+        <td>176152009</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>CET</td>
+        <td>aquib176152009</td>
+        </tr>
+        <tr>
+        <td>B-245</td>
+        <td> Biki Teron</td>
+        <td>176153001</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>CNT</td>
+        <td>bikiteron</td>
+        </tr>
+        <tr>
+        <td>B-246</td>
+        <td> Suvendu Mandal</td>
+        <td>176153002</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>CNT</td>
+        <td>suven176123002</td>
+        </tr>
+        <tr>
+        <td>B-247</td>
+        <td>Ashish Kumar Chowdhary</td>
+        <td>176302003</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>ashis176302003</td>
+        </tr>
+        <tr>
+        <td>B-248</td>
+        <td> Ankush Dasharath Sontakke</td>
+        <td>176107025</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>ankus176107025</td>
+        </tr>
+        <tr>
+        <td>B-249</td>
+        <td>SANDEEP KUMAR</td>
+        <td>140123030</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>sandeep.2014</td>
+        </tr>
+        <tr>
+        <td>B-250</td>
+        <td>SUBHAM SWAIN</td>
+        <td>140107063</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>subham.swain</td>
+        </tr>
+        <tr>
+        <td>B-251</td>
+        <td>ABHAY KUMAR MISHRA</td>
+        <td>140107002</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CST</td>
+        <td>m.abhay</td>
+        </tr>
+        <tr>
+        <td>B-252</td>
+        <td>ABHISHEK KUMAR YADAV</td>
+        <td>140121003</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>EP</td>
+        <td>abhishek.phy</td>
+        </tr>
+        <tr>
+        <td>B-253</td>
+        <td>PRANAY MANOCHA</td>
+        <td>140103051</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>m.pranay</td>
+        </tr>
+        <tr>
+        <td>B-254</td>
+        <td>MAHESH YOGI</td>
+        <td>140103036</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>Mech</td>
+        <td>mahesh.yogi</td>
+        </tr>
+        <tr>
+        <td>C-201</td>
+        <td>RUPAMJIT SONOWAL</td>
+        <td>162241020</td>
+        <td>MA</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>rupamjit123</td>
+        </tr>
+        <tr>
+        <td>C-202</td>
+        <td>PIYUSH  NIRANJAN</td>
+        <td>162241014</td>
+        <td>MA</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>piyushniranjan</td>
+        </tr>
+        <tr>
+        <td>C-203</td>
+        <td>INDRANIL HAZARIKA</td>
+        <td>174104091</td>
+        <td>M.tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>indra174104091</td>
+        </tr>
+        <tr>
+        <td>C-204</td>
+        <td> Abhishek Saha</td>
+        <td>146122036</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>abhishek.saha</td>
+        </tr>
+        <tr>
+        <td>C-205</td>
+        <td>Gangolu Jaswanth</td>
+        <td>146104042</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>gangolu</td>
+        </tr>
+        <tr>
+        <td>C-206</td>
+        <td> Kuldeep Singh Yadav</td>
+        <td>176123004</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>yadav176123004</td>
+        </tr>
+        <tr>
+        <td>C-207</td>
+        <td>Kamlesh Badiyari</td>
+        <td>146102044</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>k.badhiyari</td>
+        </tr>
+        <tr>
+        <td>C-208</td>
+        <td>Shahshank kumar</td>
+        <td>156102030</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>shashank.kumar</td>
+        </tr>
+        <tr>
+        <td>C-209</td>
+        <td>VIRENDRA KUMAR GAUTAM</td>
+        <td>164154009</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>RT</td>
+        <td>gautam</td>
+        </tr>
+        <tr>
+        <td>C-210</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-211</td>
+        <td>Harinarayan NH</td>
+        <td>146104031</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>n.harinarayan</td>
+        </tr>
+        <tr>
+        <td>C-212</td>
+        <td>Veluchamy C</td>
+        <td>146104032</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>valuchamy</td>
+        </tr>
+        <tr>
+        <td>C-213</td>
+        <td>Bikram Paul</td>
+        <td>146102038</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>bikram</td>
+        </tr>
+        <tr>
+        <td>C-214</td>
+        <td> Aditya Kumar Bharti</td>
+        <td>176122005</td>
+        <td>PHD</td>
+        <td>176122005</td>
+        <td>Chemistry</td>
+        <td>adity176122005</td>
+        </tr>
+        <tr>
+        <td>C-215</td>
+        <td>Sivarama Prasad Tera</td>
+        <td>146102033</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>sivarama</td>
+        </tr>
+        <tr>
+        <td>C-216</td>
+        <td> H Najrul</td>
+        <td>146103050</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Mech</td>
+        <td>najrul</td>
+        </tr>
+        <tr>
+        <td>C-217</td>
+        <td>Shovan Kumar  Sahu</td>
+        <td>146104034</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>shovan</td>
+        </tr>
+        <tr>
+        <td>C-218</td>
+        <td> Anupoju Rajeev</td>
+        <td>146104035</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>anupoju</td>
+        </tr>
+        <tr>
+        <td>C-219</td>
+        <td> Mriganka Biswas</td>
+        <td>146102032</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>b.mriganka</td>
+        </tr>
+        <tr>
+        <td>C-220</td>
+        <td> Ato Kapfo</td>
+        <td>146102031</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>ato.kapfo</td>
+        </tr>
+        <tr>
+        <td>C-221</td>
+        <td>Mr. Mridul Goswami</td>
+        <td>146102047</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>g.mridul</td>
+        </tr>
+        <tr>
+        <td>C-222</td>
+        <td>Uttam P Goswami</td>
+        <td>146104038</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>g.uttam</td>
+        </tr>
+        <tr>
+        <td>C-223</td>
+        <td>Nikhil Immadi</td>
+        <td>174104096</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-224</td>
+        <td> Partha Das</td>
+        <td>146104039</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>partha.das</td>
+        </tr>
+        <tr>
+        <td>C-225</td>
+        <td>S Jagan Mohan Rao</td>
+        <td>146121032</td>
+        <td>Phd</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>sjagan</td>
+        </tr>
+        <tr>
+        <td>C-226</td>
+        <td>Saurabh Bhowmik</td>
+        <td>176122028</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>soura176122028</td>
+        </tr>
+        <tr>
+        <td>C-227</td>
+        <td>Satya Prakash Patel</td>
+        <td>146101024</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>satya.patel</td>
+        </tr>
+        <tr>
+        <td>C-228</td>
+        <td>Vijayan</td>
+        <td>146104041</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-229</td>
+        <td>Vamsikrishna Reddy Anyam  </td>
+        <td>146107034</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>vamsikrishna</td>
+        </tr>
+        <tr>
+        <td>C-230</td>
+        <td>Regulus Dominic K Shallam</td>
+        <td>146104043</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>regulus</td>
+        </tr>
+        <tr>
+        <td>C-231</td>
+        <td>ADITYA AGRAWAL</td>
+        <td>174102037</td>
+        <td>EEE</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-232</td>
+        <td>Sandip</td>
+        <td>160101041</td>
+        <td>B.Tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>sandeep.mantri</td>
+        </tr>
+        <tr>
+        <td>C-233</td>
+        <td>NIKHIL IMMADI</td>
+        <td>174104096</td>
+        <td>M.tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>nikhi174104096</td>
+        </tr>
+        <tr>
+        <td>C-234</td>
+        <td>Tekcham Gishan Singh</td>
+        <td>146104036</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>tekcham</td>
+        </tr>
+        <tr>
+        <td>C-235</td>
+        <td>Arul Mani Kandan N</td>
+        <td>156107020</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-236</td>
+        <td> Manoj Kumar Mohanta</td>
+        <td>176122015</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>manoj176122015</td>
+        </tr>
+        <tr>
+        <td>C-237</td>
+        <td>ANUBHAB CHOWDHURY</td>
+        <td>174102018</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>anubh174102018</td>
+        </tr>
+        <tr>
+        <td>C-238</td>
+        <td>RAM RAJA BHAGAT</td>
+        <td>164103028</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Mech</td>
+        <td>rajaram.b</td>
+        </tr>
+        <tr>
+        <td>C-239</td>
+        <td>ANIK BATABYAL</td>
+        <td>174102026</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>anik174102026</td>
+        </tr>
+        <tr>
+        <td>D-201</td>
+        <td>SUJAY PAUL</td>
+        <td>162122040</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>sujaypaul97</td>
+        </tr>
+        <tr>
+        <td>D-202</td>
+        <td>ARNAB PRAKASH DEY</td>
+        <td>162121009</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>arnabpdey</td>
+        </tr>
+        <tr>
+        <td>D-203</td>
+        <td>SUPRIYA PAN</td>
+        <td>162121045</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>span19</td>
+        </tr>
+        <tr>
+        <td>D-204</td>
+        <td>SAURAV KUMAR</td>
+        <td>162122035</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-205</td>
+        <td>Trilokpati Tribedi</td>
+        <td>166107008</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-206</td>
+        <td>Surjendu Maity</td>
+        <td>166153003</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>CRT</td>
+        <td>surjendu.nano</td>
+        </tr>
+        <tr>
+        <td>D-207</td>
+        <td>JAMALUDDIN</td>
+        <td>162121025</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>habiburrahman</td>
+        </tr>
+        <tr>
+        <td>D-208</td>
+        <td>ANSHUL THAKUR</td>
+        <td>162121007</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>thanshil.at</td>
+        </tr>
+        <tr>
+        <td>D-209</td>
+        <td>SOUMENDU GHOSH</td>
+        <td>174102019</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>ghosh174102019</td>
+        </tr>
+        <tr>
+        <td>D-210</td>
+        <td>TEJBAHADUR SINGH</td>
+        <td>162122044</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-211</td>
+        <td>VIRENDRA KUMAR</td>
+        <td>162123052</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>virendrakumar</td>
+        </tr>
+        <tr>
+        <td>D-212</td>
+        <td>CHITRAK KARAN</td>
+        <td>162121019</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>chitrakaran</td>
+        </tr>
+        <tr>
+        <td>D-213</td>
+        <td>ARUP MONDAL</td>
+        <td>162122006</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>arupritha</td>
+        </tr>
+        <tr>
+        <td>D-214</td>
+        <td>AJAY BARO</td>
+        <td>162121003</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>ajay.baro</td>
+        </tr>
+        <tr>
+        <td>D-215</td>
+        <td>SIMANTA PRATIM MUDOI</td>
+        <td>162241025</td>
+        <td>MA</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>mudoi1994</td>
+        </tr>
+        <tr>
+        <td>D-216</td>
+        <td>SOURAV MAHATA</td>
+        <td>162123045</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>souravmahata</td>
+        </tr>
+        <tr>
+        <td>D-217</td>
+        <td>MRITYUNJOY GHOSH</td>
+        <td>162123023</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>ghoshmritunjymath</td>
+        </tr>
+        <tr>
+        <td>D-218</td>
+        <td>CHANDAN PRADHAN</td>
+        <td>162123012</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>chandan.math</td>
+        </tr>
+        <tr>
+        <td>D-219</td>
+        <td>DUSHYANT YADAV</td>
+        <td>162122012</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-220</td>
+        <td>AKSHAY MALIK</td>
+        <td>162122003</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>akshaymalik49904</td>
+        </tr>
+        <tr>
+        <td>D-221</td>
+        <td>AASHISH</td>
+        <td>162122001</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>aashish2016</td>
+        </tr>
+        <tr>
+        <td>D-222</td>
+        <td>ANGSHUMAN DAS</td>
+        <td>162122004</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>angshuman2811</td>
+        </tr>
+        <tr>
+        <td>D-223</td>
+        <td>BHAVISHYA  DHAKER</td>
+        <td>162123011</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>bhavishya</td>
+        </tr>
+        <tr>
+        <td>D-224</td>
+        <td>ASHOK KUMAR SHARMA</td>
+        <td>162123010</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>sharmaashok</td>
+        </tr>
+        <tr>
+        <td>D-225</td>
+        <td>VEDPRAKASH OLA</td>
+        <td>162122046</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>ved1994</td>
+        </tr>
+        <tr>
+        <td>D-226</td>
+        <td>BISWAJIT PANDA</td>
+        <td>164104025</td>
+        <td>M.tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>biswajit30107</td>
+        </tr>
+        <tr>
+        <td>D-227</td>
+        <td>DAKSH  BAHUGUNA</td>
+        <td>164205007</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>dakshbahuguna</td>
+        </tr>
+        <tr>
+        <td>D-228</td>
+        <td>Atanu Jana</td>
+        <td>162121013</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-229</td>
+        <td>Ankur Pandey</td>
+        <td>156107005</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>ankur.pandey</td>
+        </tr>
+        <tr>
+        <td>D-230</td>
+        <td>DINESH KUMAR VERMA</td>
+        <td>164104032</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>dinesh2016</td>
+        </tr>
+        <tr>
+        <td>D-231</td>
+        <td>ROHIT   KUMAR</td>
+        <td>164205016</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-232</td>
+        <td>DEV KARAN SINGH</td>
+        <td>162123013</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>devkaran</td>
+        </tr>
+        <tr>
+        <td>D-233</td>
+        <td>PARSHANT   KUMAR</td>
+        <td>162241013</td>
+        <td>MA</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>parshant</td>
+        </tr>
+        <tr>
+        <td>D-234</td>
+        <td>RASHMIRANJAN SAHU</td>
+        <td>162123033</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>sahurashmiranjan</td>
+        </tr>
+        <tr>
+        <td>D-235</td>
+        <td> Abhinav Kumar</td>
+        <td>176103020</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Mech</td>
+        <td>kumar176103020</td>
+        </tr>
+        <tr>
+        <td>D-236</td>
+        <td>SUMIT KUMAR DAS</td>
+        <td>164154007</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>CRT</td>
+        <td>sumit.das605</td>
+        </tr>
+        <tr>
+        <td>D-237</td>
+        <td>Brijesh Maddeshiya</td>
+        <td>162122010</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>brijeshmaddeshiya</td>
+        </tr>
+        <tr>
+        <td>D-238</td>
+        <td>Kalim Uddeen</td>
+        <td>164351006</td>
+        <td>MSR</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>uddeen</td>
+        </tr>
+        <tr>
+        <td>D-239</td>
+        <td>SANGLAP DAS</td>
+        <td>162122033</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>sanglap</td>
+        </tr>
+        <tr>
+        <td>D-240</td>
+        <td>APURBA DAS</td>
+        <td>174104136</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>apurb174104136</td>
+        </tr>
+        <tr>
+        <td>D-241</td>
+        <td>PRASANTA KUMAR DAS</td>
+        <td>164103134</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Mech</td>
+        <td>d.prasanta</td>
+        </tr>
+        <tr>
+        <td>D-242</td>
+        <td>LAHIT MUSHAHARY</td>
+        <td>174104140</td>
+        <td>ESSE</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>musha174104140</td>
+        </tr>
+        <tr>
+        <td>D-243</td>
+        <td>PAWAN KUMAR </td>
+        <td>164104049</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>pawan2016</td>
+        </tr>
+        <tr>
+        <td>D-244</td>
+        <td>Hminsu Sahoo</td>
+        <td>164351004</td>
+        <td>MSR</td>
+        <td>Student</td>
+        <td>Energy</td>
+        <td>himanshu.sahoo</td>
+        </tr>
+        <tr>
+        <td>D-245</td>
+        <td>DEEPAK KUMAR</td>
+        <td>162121020</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>drathee</td>
+        </tr>
+        <tr>
+        <td>D-246</td>
+        <td>NEVILLE  MAIBANGSA</td>
+        <td>164103031</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-247</td>
+        <td>Prashant Chaudhary</td>
+        <td>174102049</td>
+        <td>M.Tech </td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>chaud174102049</td>
+        </tr>
+        <tr>
+        <td>D-248</td>
+        <td>MRINMOY ROY</td>
+        <td>162122021</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Chemistry</td>
+        <td>mrinmoy</td>
+        </tr>
+        <tr>
+        <td>D-249</td>
+        <td>GAJJELA RAJASEKHAR</td>
+        <td>164104095</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>raja.shekhar</td>
+        </tr>
+        <tr>
+        <td>D-250</td>
+        <td>SATHISWARAN P  </td>
+        <td>164205017</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>sathis</td>
+        </tr>
+        <tr>
+        <td>D-251</td>
+        <td>KOUSIK BERA</td>
+        <td>162121030</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>koushik1995</td>
+        </tr>
+        <tr>
+        <td>D-252</td>
+        <td>SAUBHIK DAS</td>
+        <td>174104115</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>saubh174104115</td>
+        </tr>
+        <tr>
+        <td>D-253</td>
+        <td>RAMBABOO KHATANA</td>
+        <td>162123032</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>rambabookhatana5597</td>
+        </tr>
+        <tr>
+        <td>D-254</td>
+        <td>Gajendra Singh Bishat</td>
+        <td>176121101</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>gajendrasinghvist@gmailNot Submitted</td>
+        </tr>
+        <tr>
+        <td>D-255</td>
+        <td>MANOJ SHARMA</td>
+        <td>164154004</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>CNT</td>
+        <td>aems2125</td>
+        </tr>
+        <tr>
+        <td>D-256</td>
+        <td>ARIJIT ROY</td>
+        <td>162123009</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>arjit2016</td>
+        </tr>
+        <tr>
+        <td>D-257</td>
+        <td>Dasari Abhishek</td>
+        <td>164205009</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>abhishek.dasari</td>
+        </tr>
+        <tr>
+        <td>D-258</td>
+        <td>PRANAV KISHOR NIPHADKAR</td>
+        <td>164205015</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>pranav.niphadkar</td>
+        </tr>
+        <tr>
+        <td>D-259</td>
+        <td>YATISH KHULBE</td>
+        <td>162122048</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>yatishkhulbe</td>
+        </tr>
+        <tr>
+        <td>D-260</td>
+        <td>PRITOM KUMAR THAKURIA</td>
+        <td>164104014</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>pritam.thakuria</td>
+        </tr>
+        <tr>
+        <td>D-261</td>
+        <td>CHUPIKAMAL KALITA</td>
+        <td>164154003</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>CRT</td>
+        <td>chupikamal</td>
+        </tr>
+        <tr>
+        <td>D-262</td>
+        <td>RAGHVENDRA CHAUHAN</td>
+        <td>164154002</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>CRT</td>
+        <td>raghvendr1994</td>
+        </tr>
+        <tr>
+        <td>D-263</td>
+        <td>ANKIT SONI</td>
+        <td>164154006</td>
+        <td>M.tech</td>
+        <td>Student</td>
+        <td>CRT</td>
+        <td>ankitsoni</td>
+        </tr>
+        <tr>
+        <td>D-264</td>
+        <td>SURAJ RAMANANDA PAI</td>
+        <td>164205023</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>surajrpai</td>
+        </tr>
+        <tr>
+        <td>D-265</td>
+        <td>KAILASH</td>
+        <td>164103022</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Mech</td>
+        <td>kailash.2016</td>
+        </tr>
+        <tr>
+        <td>D-266</td>
+        <td>YOGESH MUKESHBHAI RATHOD</td>
+        <td>164205026</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>yogesh.rathod</td>
+        </tr>
+        <tr>
+        <td>D-267</td>
+        <td>SUGAT ASHOKRAO INGLE</td>
+        <td>164205021</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>sugat.ingle</td>
+        </tr>
+        <tr>
+        <td>D-268</td>
+        <td>VISHNU  CHANDRAKUMAR</td>
+        <td>164205024</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>vishnu.chandra</td>
+        </tr>
+        <tr>
+        <td>D-269</td>
+        <td>MIHIR PRAMOD BANKAPURE</td>
+        <td>164205012</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>mihir26b</td>
+        </tr>
+        <tr>
+        <td>A-301</td>
+        <td>Gurdeep Singh</td>
+        <td>176105105</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-302</td>
+        <td>Samanwaya Chakraborthy</td>
+        <td>140102077</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>samanwaya</td>
+        </tr>
+        <tr>
+        <td>A-303</td>
+        <td>Rajdeep Doley</td>
+        <td>140107047</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-304</td>
+        <td>VADUGURU NAGARJUNA</td>
+        <td>140108040</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>vaduguna</td>
+        </tr>
+        <tr>
+        <td>A-305</td>
+        <td>Rajeswar Pegu</td>
+        <td>140106044</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>rajshekhar</td>
+        </tr>
+        <tr>
+        <td>A-306</td>
+        <td>PINGKU BRAHMA</td>
+        <td>140106040</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>pingku</td>
+        </tr>
+        <tr>
+        <td>A-307</td>
+        <td>A Vishwajith Reddy </td>
+        <td>140108007</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-308</td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-309</td>
+        <td>Bitu Kumar</td>
+        <td>140104020</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>bitu.kumar</td>
+        </tr>
+        <tr>
+        <td>A-310</td>
+        <td>Hemanth Gandham</td>
+        <td>140101027</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>h-gandham</td>
+        </tr>
+        <tr>
+        <td>A-311</td>
+        <td>Abhishek Chauhan</td>
+        <td>164205001</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>abhishek.31392</td>
+        </tr>
+        <tr>
+        <td>A-312</td>
+        <td>S Y S Kumar Reddy</td>
+        <td>140102051</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>sabbella</td>
+        </tr>
+        <tr>
+        <td>A-313</td>
+        <td>Rahul Kumar Gupta</td>
+        <td>140102045</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>rahul.2014</td>
+        </tr>
+        <tr>
+        <td>A-314</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-315</td>
+        <td>Krishalay Chakraborty</td>
+        <td>PS</td>
+        <td>PROJECT STAFF</td>
+        <td>PS</td>
+        <td>TIC</td>
+        <td>krishalaychakraborty1</td>
+        </tr>
+        <tr>
+        <td>A-316</td>
+        <td>Siddhartha Raj</td>
+        <td>140103083</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>r.siddhartha</td>
+        </tr>
+        <tr>
+        <td>A-317</td>
+        <td>Shirshak kumar</td>
+        <td>140101069</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>shrishak</td>
+        </tr>
+        <tr>
+        <td>A-318</td>
+        <td>ABHISHEK ARUN YEVALKAR</td>
+        <td>164205002</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>abhishek.yevalkar</td>
+        </tr>
+        <tr>
+        <td>A-319</td>
+        <td>SANDEEP KUMAR MONDAL</td>
+        <td>164104105</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>mondal</td>
+        </tr>
+        <tr>
+        <td>A-320</td>
+        <td>Anmol Nijhawan</td>
+        <td>140102081</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>n.anmol</td>
+        </tr>
+        <tr>
+        <td>A-321</td>
+        <td>MAYANK KISHORBHAI ADHADUK</td>
+        <td>164104058</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-322</td>
+        <td>MAYANK KISHORBHAI ADHADUK</td>
+        <td>164104001</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-323</td>
+        <td>Topobrato Bhanja</td>
+        <td>N-PDF</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-324</td>
+        <td>AVINASH  SHARMA</td>
+        <td>164205005</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>avinashsharma</td>
+        </tr>
+        <tr>
+        <td>A-325</td>
+        <td>Parthe Pratim</td>
+        <td>162122024</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>partha2016</td>
+        </tr>
+        <tr>
+        <td>A-326</td>
+        <td>SHAIKH ABDUL SOIF MALEK</td>
+        <td>164103023</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>shaikh</td>
+        </tr>
+        <tr>
+        <td>A-327</td>
+        <td>Mani Sankar </td>
+        <td>164205010</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-328</td>
+        <td>Arnab Ghosh</td>
+        <td>164103038</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>arnab2016</td>
+        </tr>
+        <tr>
+        <td>A-329</td>
+        <td>Anupam Kr Hazarika</td>
+        <td>176141012</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>kumar176141012</td>
+        </tr>
+        <tr>
+        <td>A-330</td>
+        <td>Himalaya Bora</td>
+        <td>176141104</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>himalaya.bora</td>
+        </tr>
+        <tr>
+        <td>A-331</td>
+        <td> </td>
+        <td>Seepage </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-332</td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-333</td>
+        <td>Nuzrul Hussain</td>
+        <td>P/S</td>
+        <td> </td>
+        <td>PS</td>
+        <td> </td>
+        <td>nazirulhussain</td>
+        </tr>
+        <tr>
+        <td>A-334</td>
+        <td>SAURAV  SARKAR</td>
+        <td>164205018</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>sauravsarkar</td>
+        </tr>
+        <tr>
+        <td>A-335</td>
+        <td>Sabyasachee Ghosh</td>
+        <td>P/S</td>
+        <td> </td>
+        <td>PS</td>
+        <td> </td>
+        <td>ghosh.s</td>
+        </tr>
+        <tr>
+        <td>A-336</td>
+        <td>Sahil Gharwal</td>
+        <td>160101058</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-337</td>
+        <td>BEDANTA  DEORI</td>
+        <td>164205006</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>bedanta</td>
+        </tr>
+        <tr>
+        <td>A-338</td>
+        <td>Yugandher Wakade</td>
+        <td>160101078</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-339</td>
+        <td>Sachin</td>
+        <td>160101065</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-301</td>
+        <td>Jennil Thiyam</td>
+        <td>176155101</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Linguistics</td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-302</td>
+        <td>John Kiran Katari</td>
+        <td>176151103</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Energy</td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-303</td>
+        <td>Joy Kumar Mondal</td>
+        <td>176104112</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>itsjoylive</td>
+        </tr>
+        <tr>
+        <td>B-304</td>
+        <td>Jyotirmoi Borah</td>
+        <td>176121103</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>ma.jyotimoiborah@gmail.com</td>
+        </tr>
+        <tr>
+        <td>B-305</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-306</td>
+        <td>Srinu Naik M</td>
+        <td>164102119</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-307</td>
+        <td>M Chetan Sriram</td>
+        <td>140121023</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>madase</td>
+        </tr>
+        <tr>
+        <td>B-308</td>
+        <td>SURANJIT BASUMATARY</td>
+        <td>164154010</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>CRT</td>
+        <td>suran.basu</td>
+        </tr>
+        <tr>
+        <td>B-309</td>
+        <td>HAFIZ  MAYEEN</td>
+        <td>164103027</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>hafizm</td>
+        </tr>
+        <tr>
+        <td>B-310</td>
+        <td>Savinay Parihar</td>
+        <td>160101062</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CS</td>
+        <td>savinay</td>
+        </tr>
+        <tr>
+        <td>B-311</td>
+        <td>Kevin Savsani</td>
+        <td>160101063</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>kevinmsavsani</td>
+        </tr>
+        <tr>
+        <td>B-312</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-313</td>
+        <td>Neilotpal Biswas</td>
+        <td>PS</td>
+        <td> </td>
+        <td>PS</td>
+        <td>CSE</td>
+        <td>nilotpal.biswas</td>
+        </tr>
+        <tr>
+        <td>B-314</td>
+        <td>Vivek Saini</td>
+        <td>160106054</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>vivek.ks901</td>
+        </tr>
+        <tr>
+        <td>B-315</td>
+        <td>Phool Chandra</td>
+        <td>160101051</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>phoolchandra</td>
+        </tr>
+        <tr>
+        <td>B-316</td>
+        <td>Rahul Kumar</td>
+        <td>160101053</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-317</td>
+        <td>Bhargav Mallala</td>
+        <td>160101040</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>bhargav.mallala</td>
+        </tr>
+        <tr>
+        <td>B-318</td>
+        <td>Vishwas Mishra</td>
+        <td>160106053</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>vishwas17597</td>
+        </tr>
+        <tr>
+        <td>B-319</td>
+        <td>CHINTALA SRIVASAGANAPATHI</td>
+        <td>164104104</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>chintala2016</td>
+        </tr>
+        <tr>
+        <td>B-320</td>
+        <td>SRINIVAS PALURI</td>
+        <td>164104027</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-321</td>
+        <td>RAVITEJA CHEERLA</td>
+        <td>164104061</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-322</td>
+        <td>KIRAN KUMAR  JUJJAVARAPU</td>
+        <td>164104018</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>kiran2016</td>
+        </tr>
+        <tr>
+        <td>B-323</td>
+        <td>Srinidhi Jha</td>
+        <td>2017PS50022</td>
+        <td> </td>
+        <td>PS</td>
+        <td>Civil</td>
+        <td>srinidhi</td>
+        </tr>
+        <tr>
+        <td>B-324</td>
+        <td>NAVEEN REDDY KALLAM</td>
+        <td>164104023</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>naveen2016</td>
+        </tr>
+        <tr>
+        <td>B-325</td>
+        <td>CHANDRASEKHAR REDDY L</td>
+        <td>164104099</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>chandrasekhar</td>
+        </tr>
+        <tr>
+        <td>B-326</td>
+        <td>Koustabh Bora</td>
+        <td>176104113</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>koustabhaec69@gmail</td>
+        </tr>
+        <tr>
+        <td>B-327</td>
+        <td>Sheetal B</td>
+        <td>140121011</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>bhashakarla</td>
+        </tr>
+        <tr>
+        <td>B-328</td>
+        <td>NAGARAJU KANAM</td>
+        <td>164104090</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>nagarju.kanam</td>
+        </tr>
+        <tr>
+        <td>B-329</td>
+        <td>Sanchit Jangir</td>
+        <td>160101060</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>sanchitjangir</td>
+        </tr>
+        <tr>
+        <td>B-330</td>
+        <td>Kakustam Anurag</td>
+        <td>160101037</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>kakustham</td>
+        </tr>
+        <tr>
+        <td>B-331</td>
+        <td>Samyak Jain</td>
+        <td>160101059</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>samyakjain</td>
+        </tr>
+        <tr>
+        <td>B-332</td>
+        <td>Jatin Goyal</td>
+        <td>160101036</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>jatingoyal</td>
+        </tr>
+        <tr>
+        <td>B-333</td>
+        <td>Namit Kumar</td>
+        <td>160101046</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>namitkrarya</td>
+        </tr>
+        <tr>
+        <td>B-334</td>
+        <td>Ambrish Singh</td>
+        <td>176103107</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>iambrishsingh@gmail</td>
+        </tr>
+        <tr>
+        <td>B-335</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-336</td>
+        <td>Yash Sharma</td>
+        <td>160101060</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-337</td>
+        <td>Nitin Kedia</td>
+        <td>160101048</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>kedia_nitin</td>
+        </tr>
+        <tr>
+        <td>B-338</td>
+        <td>Vivek Kumar</td>
+        <td>160101076</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>vivekraj</td>
+        </tr>
+        <tr>
+        <td>B-339</td>
+        <td>Rohit Pant</td>
+        <td>160101049</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>rohit.pant</td>
+        </tr>
+        <tr>
+        <td>B-340</td>
+        <td>Kapil Goyal</td>
+        <td>160101039</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>kapil.goyal</td>
+        </tr>
+        <tr>
+        <td>B-341</td>
+        <td>Saranga Das</td>
+        <td>154106015</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-342</td>
+        <td>Mohit Singh</td>
+        <td>160101043</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-343</td>
+        <td>Sahib Khan</td>
+        <td>160101057</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>sahib15khan</td>
+        </tr>
+        <tr>
+        <td>B-344</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>P.Lock</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-345</td>
+        <td>Shivam Kumar</td>
+        <td>160101066</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>shivam2016</td>
+        </tr>
+        <tr>
+        <td>B-346</td>
+        <td>Abhisek Dey</td>
+        <td> </td>
+        <td>PS</td>
+        <td>ps</td>
+        <td> </td>
+        <td>ABHISHEKDEY</td>
+        </tr>
+        <tr>
+        <td>B-347</td>
+        <td>Arup Kumar Pal</td>
+        <td>174102055</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>arup174102055</td>
+        </tr>
+        <tr>
+        <td>B-348</td>
+        <td>Sumedh Manwar</td>
+        <td>160101074</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>sumedhmanwar</td>
+        </tr>
+        <tr>
+        <td>B-349</td>
+        <td>Sambit Pradhan</td>
+        <td>162122032</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>sambitpradhan</td>
+        </tr>
+        <tr>
+        <td>B-350</td>
+        <td>Jamesh Dinakaran Nirjinary</td>
+        <td>162123017</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-351</td>
+        <td>Shubham Kumar Koul</td>
+        <td>160101069</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-352</td>
+        <td>Saurabh Bazari</td>
+        <td>160101061</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-353</td>
+        <td>Sparsh Bansal</td>
+        <td>160101072</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-354</td>
+        <td>Ritik Agarwal</td>
+        <td>160101055</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-301</td>
+        <td>Siddhartha sharma</td>
+        <td>160101071</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>siddharthks</td>
+        </tr>
+        <tr>
+        <td>C-302</td>
+        <td>ANI  DALAL</td>
+        <td>164205003</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>ani67</td>
+        </tr>
+        <tr>
+        <td>C-303</td>
+        <td>MANASH JYOTI BORA</td>
+        <td>164104024</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>manashjyoti</td>
+        </tr>
+        <tr>
+        <td>C-304</td>
+        <td>Nikhil Kumar</td>
+        <td>160101047</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>nikhilabcdenk</td>
+        </tr>
+        <tr>
+        <td>C-305</td>
+        <td>SANJEET BAPURAO SALUNKE</td>
+        <td>174104102</td>
+        <td>MTECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>sanje174104102</td>
+        </tr>
+        <tr>
+        <td>C-306</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-307</td>
+        <td>MOHIJEET   DAS</td>
+        <td>164205013</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>mohijeet</td>
+        </tr>
+        <tr>
+        <td>C-308</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-309</td>
+        <td>DIPTO DEB</td>
+        <td>164104060</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>diptodeb</td>
+        </tr>
+        <tr>
+        <td>C-310</td>
+        <td>VISWANATH MAHATO</td>
+        <td>176122020</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>bishw176122020</td>
+        </tr>
+        <tr>
+        <td>C-311</td>
+        <td>Poreddy SaiKiran</td>
+        <td>160101052</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>saikaranreddy.saikaran</td>
+        </tr>
+        <tr>
+        <td>C-312</td>
+        <td> Basabendu Barman</td>
+        <td>156121033</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>bb1988</td>
+        </tr>
+        <tr>
+        <td>C-313</td>
+        <td>Himachal Singh</td>
+        <td>176102109</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-314</td>
+        <td>SHAILENDRA HARIOUDH</td>
+        <td>174104085</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>shail174104085</td>
+        </tr>
+        <tr>
+        <td>C-315</td>
+        <td>SURU ADITYA ASHUTOSH</td>
+        <td>130107064</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>sashutosh</td>
+        </tr>
+        <tr>
+        <td>C-316</td>
+        <td>RAKESH KUMAR SAHOO</td>
+        <td>174104097</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>sahoo174104097</td>
+        </tr>
+        <tr>
+        <td>C-317</td>
+        <td>Hirakjyoti Basumatary</td>
+        <td>176103030</td>
+        <td>B.tech</td>
+        <td>Vacant</td>
+        <td>ME</td>
+        <td>b.hirak</td>
+        </tr>
+        <tr>
+        <td>C-318</td>
+        <td>Dudul Das</td>
+        <td>156151011</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>dudul.das</td>
+        </tr>
+        <tr>
+        <td>C-319</td>
+        <td>V ABHISHEK</td>
+        <td>164104026</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>abhishek17</td>
+        </tr>
+        <tr>
+        <td>C-320</td>
+        <td>SHEIKH MOONSUN PERVEZ</td>
+        <td>162121039</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>moonsun</td>
+        </tr>
+        <tr>
+        <td>C-321</td>
+        <td> </td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-322</td>
+        <td>RAJU AGARWAL</td>
+        <td>174102028</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>raju174102028</td>
+        </tr>
+        <tr>
+        <td>C-323</td>
+        <td>SREEJEITH MURALIDHAR</td>
+        <td>174104126</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-324</td>
+        <td>Arka Mitra</td>
+        <td>176104102</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-325</td>
+        <td>Nayanjyoti Kalita</td>
+        <td>Temp</td>
+        <td> </td>
+        <td>Temp</td>
+        <td> </td>
+        <td>nayanjyotikalita1990@gmail</td>
+        </tr>
+        <tr>
+        <td>C-326</td>
+        <td>Inderpreet Singh</td>
+        <td>160101035</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-327</td>
+        <td>Varun Kumar Kedia</td>
+        <td>160101075</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>varunkedia</td>
+        </tr>
+        <tr>
+        <td>C-328</td>
+        <td>ABI ABRAHAM</td>
+        <td>174104107</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>abi174104107</td>
+        </tr>
+        <tr>
+        <td>C-329</td>
+        <td>SASI KIRAN  TALABHAKTULA</td>
+        <td>164103029</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>sasi.kiran</td>
+        </tr>
+        <tr>
+        <td>C-330</td>
+        <td>Mukul Verma</td>
+        <td>160101044</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>mRv_1990</td>
+        </tr>
+        <tr>
+        <td>C-331</td>
+        <td>Yagyansh Bhatia</td>
+        <td>160101079</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-332</td>
+        <td>Ranendra kumar sharma</td>
+        <td>174102025</td>
+        <td>M.tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>ranen174102025</td>
+        </tr>
+        <tr>
+        <td>C-333</td>
+        <td>Paranjay Bagga</td>
+        <td>160101050</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>paranjay14</td>
+        </tr>
+        <tr>
+        <td>C-334</td>
+        <td>Shubendhu Patidar</td>
+        <td>160101068</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-335</td>
+        <td>Mitansh Jain</td>
+        <td>160101042</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>mitansh1398</td>
+        </tr>
+        <tr>
+        <td>C-336</td>
+        <td>Sujoy Ghosh</td>
+        <td>160101073</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>ghoshsujoy19</td>
+        </tr>
+        <tr>
+        <td>C-337</td>
+        <td>BIDYUT BIKASH CHANGMAI</td>
+        <td>162241006</td>
+        <td>MA</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>bidyutchangmai99</td>
+        </tr>
+        <tr>
+        <td>C-338</td>
+        <td>VENKATA KRISHNA KADIYAM</td>
+        <td>164104009</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>krishna2016</td>
+        </tr>
+        <tr>
+        <td>C-339</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td>To check</td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-301</td>
+        <td>SUBHENDU KEORA</td>
+        <td>162123047</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>subhendukeora</td>
+        </tr>
+        <tr>
+        <td>D-302</td>
+        <td>ABHIJIT SHIT</td>
+        <td>162123002</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>aaabhijit</td>
+        </tr>
+        <tr>
+        <td>D-303</td>
+        <td>DEEPAK SINGH OLA</td>
+        <td>162121021</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>deepaksinghola</td>
+        </tr>
+        <tr>
+        <td>D-304</td>
+        <td>NITIN GUPTA</td>
+        <td>162121035</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>nit_gupta94</td>
+        </tr>
+        <tr>
+        <td>D-305</td>
+        <td>ABHAY GAUR</td>
+        <td>162122002</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>abhay2016</td>
+        </tr>
+        <tr>
+        <td>D-306</td>
+        <td>SUMAN DOLAI</td>
+        <td>162122041</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>s.doloi</td>
+        </tr>
+        <tr>
+        <td>D-307</td>
+        <td>JINKU DAS</td>
+        <td>162121026</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>dasjinku</td>
+        </tr>
+        <tr>
+        <td>D-308</td>
+        <td>BRAJESH KUMAR</td>
+        <td>162121016</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>brak12</td>
+        </tr>
+        <tr>
+        <td>D-309</td>
+        <td>SUVENDU PARIDA</td>
+        <td>174104082</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>suven174104082</td>
+        </tr>
+        <tr>
+        <td>D-310</td>
+        <td>AKHILESH KUMAR SINGH</td>
+        <td>162123004</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>akhilesh2016</td>
+        </tr>
+        <tr>
+        <td>D-311</td>
+        <td>MRINAL KANTI GIRI</td>
+        <td>162121033</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>mrinalphy</td>
+        </tr>
+        <tr>
+        <td>D-312</td>
+        <td>CHANDAN KUMAR SAH</td>
+        <td>162121017</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>chandan2016</td>
+        </tr>
+        <tr>
+        <td>D-313</td>
+        <td>DIPUNJAY BRAHAMA</td>
+        <td>COACH</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-314</td>
+        <td>Indrajeet Chatterjee</td>
+        <td>162122014</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>indrajitchatterjee</td>
+        </tr>
+        <tr>
+        <td>D-315</td>
+        <td>AMIT DEBNATH</td>
+        <td>162123006</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>amitdebnath</td>
+        </tr>
+        <tr>
+        <td>D-316</td>
+        <td>KALLOL RAY</td>
+        <td>162123018</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>kallolray</td>
+        </tr>
+        <tr>
+        <td>D-317</td>
+        <td>MANISH SAINI</td>
+        <td>162121032</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>manishsaini</td>
+        </tr>
+        <tr>
+        <td>D-318</td>
+        <td>SUBHRADIP KUNDU</td>
+        <td>162123048</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>s.kundu</td>
+        </tr>
+        <tr>
+        <td>D-319</td>
+        <td>RAVISHANKAR  </td>
+        <td>162241017</td>
+        <td>M.A</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>iamravi94</td>
+        </tr>
+        <tr>
+        <td>D-320</td>
+        <td>RUPAMSHANKAR NATH</td>
+        <td>162123036</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>rupammath23</td>
+        </tr>
+        <tr>
+        <td>D-321</td>
+        <td>RUPESH KUMAR TIWARI</td>
+        <td>162122029</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>rupeshkr</td>
+        </tr>
+        <tr>
+        <td>D-322</td>
+        <td>SALU KUMAR RAM</td>
+        <td>162122031</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>salu2016</td>
+        </tr>
+        <tr>
+        <td>D-323</td>
+        <td>SAURAV</td>
+        <td>162123043</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>saurav2016</td>
+        </tr>
+        <tr>
+        <td>D-324</td>
+        <td>SATYAJIT PATRA</td>
+        <td>162122034</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>satyajitpatra</td>
+        </tr>
+        <tr>
+        <td>D-325</td>
+        <td>DESH RAJ VERMA</td>
+        <td>162121023</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>deshu</td>
+        </tr>
+        <tr>
+        <td>D-326</td>
+        <td>PRASENJIT MANDAL</td>
+        <td>162122027</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>mandal.prasenjit</td>
+        </tr>
+        <tr>
+        <td>D-327</td>
+        <td>AMAN</td>
+        <td>162123005</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>aman2016</td>
+        </tr>
+        <tr>
+        <td>D-328</td>
+        <td>OIYAO APPUN PEGU</td>
+        <td>162122023</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>oiyao</td>
+        </tr>
+        <tr>
+        <td>D-329</td>
+        <td> Syed Nayab Rasool</td>
+        <td>176103007</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>ras176103007</td>
+        </tr>
+        <tr>
+        <td>D-330</td>
+        <td>NIKHIL KUMAR</td>
+        <td>162121034</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>nikhilk390</td>
+        </tr>
+        <tr>
+        <td>D-331</td>
+        <td>SAURAV SAHOO</td>
+        <td>162123044</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>sauravs899</td>
+        </tr>
+        <tr>
+        <td>D-332</td>
+        <td>Subhayan Samanta</td>
+        <td>162122039</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>subhyan2295</td>
+        </tr>
+        <tr>
+        <td>D-333</td>
+        <td>PAWAN KUMAR TIWARI</td>
+        <td>162122025</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>pawantiwari</td>
+        </tr>
+        <tr>
+        <td>D-334</td>
+        <td>Somgutt</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-335</td>
+        <td> </td>
+        <td>occ</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-336</td>
+        <td>Rajesh Choudhary</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-337</td>
+        <td>Sagnik Middya</td>
+        <td>PS</td>
+        <td>PS</td>
+        <td>PS</td>
+        <td>CNT</td>
+        <td>sagnik.middya</td>
+        </tr>
+        <tr>
+        <td>D-338</td>
+        <td>Ronak Lalani</td>
+        <td>174102043</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>ronak1741020</td>
+        </tr>
+        <tr>
+        <td>D-339</td>
+        <td> Moatemsu Basumatary</td>
+        <td>PS</td>
+        <td>PS</td>
+        <td>PS</td>
+        <td>HSS</td>
+        <td>moabosu</td>
+        </tr>
+        <tr>
+        <td>D-340</td>
+        <td>Jay Prakash Deka</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-341</td>
+        <td>Milan Kumar Jana</td>
+        <td>162122019</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>milanchemo</td>
+        </tr>
+        <tr>
+        <td>D-342</td>
+        <td>Badan Dey</td>
+        <td>Coach      </td>
+        <td>Coach      </td>
+        <td>Coach      </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-343</td>
+        <td>Atanu Jana</td>
+        <td>162121013</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>atanuthephyscict</td>
+        </tr>
+        <tr>
+        <td>D-344</td>
+        <td>Anup Bora</td>
+        <td>Coach</td>
+        <td> </td>
+        <td>Coach</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-345</td>
+        <td>Mriganka Jyoti Deka</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-346</td>
+        <td>Ratnesh Kumar</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-347</td>
+        <td>Rishi Chandra</td>
+        <td>174102048</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>rishi174102048</td>
+        </tr>
+        <tr>
+        <td>D-348</td>
+        <td>Prabhanshu Porwar</td>
+        <td>174102058</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>prabb174102058</td>
+        </tr>
+        <tr>
+        <td>D-349</td>
+        <td>Deepak Kumar Sahoo</td>
+        <td>174102060</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>sahoo174102060</td>
+        </tr>
+        <tr>
+        <td>D-350</td>
+        <td>RONI CHATTERJEE</td>
+        <td>162121037</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>ranichatterjee6</td>
+        </tr>
+        <tr>
+        <td>D-351</td>
+        <td>Vivek Ghritlahre</td>
+        <td>164351002</td>
+        <td>MSR</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>vivekghritkahre</td>
+        </tr>
+        <tr>
+        <td>D-352</td>
+        <td>JOYDIPTO BHATTACHARYA</td>
+        <td>162121028</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>joydipto</td>
+        </tr>
+        <tr>
+        <td>D-353</td>
+        <td>SHOUNAK DE</td>
+        <td>162121040</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>shounakde</td>
+        </tr>
+        <tr>
+        <td>D-354</td>
+        <td>AMEER MEHER</td>
+        <td>162121005</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>ameermeher10</td>
+        </tr>
+        <tr>
+        <td>D-355</td>
+        <td>CHIRANJIT MAHATO</td>
+        <td>162121018</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>chirunas</td>
+        </tr>
+        <tr>
+        <td>D-356</td>
+        <td>kushal Chakraborty</td>
+        <td>162121031</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>kushalstan</td>
+        </tr>
+        <tr>
+        <td>D-357</td>
+        <td> Prashik Tulsidas Bobade</td>
+        <td>164351003</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-358</td>
+        <td>KOUSIK ROUTH</td>
+        <td>162122016</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>koushikrouth</td>
+        </tr>
+        <tr>
+        <td>D-359</td>
+        <td>BISWAJIT MONDAL</td>
+        <td>162122009</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>biswajit.mandal</td>
+        </tr>
+        <tr>
+        <td>D-360</td>
+        <td>NABA KUMAR BISWAS</td>
+        <td>162122022</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>naba5029</td>
+        </tr>
+        <tr>
+        <td>D-361</td>
+        <td>BIHAN BANERJEE</td>
+        <td>162121015</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-362</td>
+        <td>ARINDAM  CHAKMA</td>
+        <td>162241003</td>
+        <td>MA</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>arindamchakma1</td>
+        </tr>
+        <tr>
+        <td>D-363</td>
+        <td>MATAP SHANKAR</td>
+        <td>162123021</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>matapshankar</td>
+        </tr>
+        <tr>
+        <td>D-364</td>
+        <td>SUKHJOVAN SINGH GILL</td>
+        <td>162121044</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>sukhjovan</td>
+        </tr>
+        <tr>
+        <td>D-365</td>
+        <td>Mriganka Saha</td>
+        <td>164351012</td>
+        <td>MSR</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>mriganka.saha</td>
+        </tr>
+        <tr>
+        <td>D-366</td>
+        <td>Tota Sai Santhosh</td>
+        <td>164351005</td>
+        <td>MSR</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>saisanthosh</td>
+        </tr>
+        <tr>
+        <td>D-367</td>
+        <td>SATVEER SINGH</td>
+        <td>162123041</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>satveersingh</td>
+        </tr>
+        <tr>
+        <td>D-368</td>
+        <td>Tushar Sharma</td>
+        <td>164351010</td>
+        <td>MSR</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>tusharsharma</td>
+        </tr>
+        <tr>
+        <td>D-369</td>
+        <td>Mohammad Adil</td>
+        <td>164351007</td>
+        <td>MSR</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>md.adil</td>
+        </tr>
+        <tr>
+        <td>A-301</td>
+        <td>Gurdeep Singh</td>
+        <td>176105105</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-302</td>
+        <td>Samanwaya Chakraborthy</td>
+        <td>140102077</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>samanwaya</td>
+        </tr>
+        <tr>
+        <td>A-303</td>
+        <td>Rajdeep Doley</td>
+        <td>140107047</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-304</td>
+        <td>VADUGURU NAGARJUNA</td>
+        <td>140108040</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>vaduguna</td>
+        </tr>
+        <tr>
+        <td>A-305</td>
+        <td>Rajeswar Pegu</td>
+        <td>140106044</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>rajshekhar</td>
+        </tr>
+        <tr>
+        <td>A-306</td>
+        <td>PINGKU BRAHMA</td>
+        <td>140106040</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>pingku</td>
+        </tr>
+        <tr>
+        <td>A-307</td>
+        <td>A Vishwajith Reddy </td>
+        <td>140108007</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-308</td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-309</td>
+        <td>Bitu Kumar</td>
+        <td>140104020</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>bitu.kumar</td>
+        </tr>
+        <tr>
+        <td>A-310</td>
+        <td>Hemanth Gandham</td>
+        <td>140101027</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>h-gandham</td>
+        </tr>
+        <tr>
+        <td>A-311</td>
+        <td>Abhishek Chauhan</td>
+        <td>164205001</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>abhishek.31392</td>
+        </tr>
+        <tr>
+        <td>A-312</td>
+        <td>S Y S Kumar Reddy</td>
+        <td>140102051</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>sabbella</td>
+        </tr>
+        <tr>
+        <td>A-313</td>
+        <td>Rahul Kumar Gupta</td>
+        <td>140102045</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>rahul.2014</td>
+        </tr>
+        <tr>
+        <td>A-314</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-315</td>
+        <td>Krishalay Chakraborty</td>
+        <td>PS</td>
+        <td>PROJECT STAFF</td>
+        <td>PS</td>
+        <td>TIC</td>
+        <td>krishalaychakraborty1</td>
+        </tr>
+        <tr>
+        <td>A-316</td>
+        <td>Siddhartha Raj</td>
+        <td>140103083</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>r.siddhartha</td>
+        </tr>
+        <tr>
+        <td>A-317</td>
+        <td>Shirshak kumar</td>
+        <td>140101069</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>shrishak</td>
+        </tr>
+        <tr>
+        <td>A-318</td>
+        <td>ABHISHEK ARUN YEVALKAR</td>
+        <td>164205002</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>abhishek.yevalkar</td>
+        </tr>
+        <tr>
+        <td>A-319</td>
+        <td>SANDEEP KUMAR MONDAL</td>
+        <td>164104105</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>mondal</td>
+        </tr>
+        <tr>
+        <td>A-320</td>
+        <td>Anmol Nijhawan</td>
+        <td>140102081</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>ECE</td>
+        <td>n.anmol</td>
+        </tr>
+        <tr>
+        <td>A-321</td>
+        <td>MAYANK KISHORBHAI ADHADUK</td>
+        <td>164104058</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-322</td>
+        <td>MAYANK KISHORBHAI ADHADUK</td>
+        <td>164104001</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-323</td>
+        <td>Topobrato Bhanja</td>
+        <td>N-PDF</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-324</td>
+        <td>AVINASH  SHARMA</td>
+        <td>164205005</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>avinashsharma</td>
+        </tr>
+        <tr>
+        <td>A-325</td>
+        <td>Parthe Pratim</td>
+        <td>162122024</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>partha2016</td>
+        </tr>
+        <tr>
+        <td>A-326</td>
+        <td>SHAIKH ABDUL SOIF MALEK</td>
+        <td>164103023</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>shaikh</td>
+        </tr>
+        <tr>
+        <td>A-327</td>
+        <td>Mani Sankar </td>
+        <td>164205010</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-328</td>
+        <td>Arnab Ghosh</td>
+        <td>164103038</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>arnab2016</td>
+        </tr>
+        <tr>
+        <td>A-329</td>
+        <td>Anupam Kr Hazarika</td>
+        <td>176141012</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>kumar176141012</td>
+        </tr>
+        <tr>
+        <td>A-330</td>
+        <td>Himalaya Bora</td>
+        <td>176141104</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>himalaya.bora</td>
+        </tr>
+        <tr>
+        <td>A-331</td>
+        <td> </td>
+        <td>Seepage </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-332</td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-333</td>
+        <td>Nuzrul Hussain</td>
+        <td>P/S</td>
+        <td> </td>
+        <td>PS</td>
+        <td> </td>
+        <td>nazirulhussain</td>
+        </tr>
+        <tr>
+        <td>A-334</td>
+        <td>SAURAV  SARKAR</td>
+        <td>164205018</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>sauravsarkar</td>
+        </tr>
+        <tr>
+        <td>A-335</td>
+        <td>Sabyasachee Ghosh</td>
+        <td>P/S</td>
+        <td> </td>
+        <td>PS</td>
+        <td> </td>
+        <td>ghosh.s</td>
+        </tr>
+        <tr>
+        <td>A-336</td>
+        <td>Sahil Gharwal</td>
+        <td>160101058</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-337</td>
+        <td>BEDANTA  DEORI</td>
+        <td>164205006</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>bedanta</td>
+        </tr>
+        <tr>
+        <td>A-338</td>
+        <td>Yugandher Wakade</td>
+        <td>160101078</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>A-339</td>
+        <td>Sachin</td>
+        <td>160101065</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-301</td>
+        <td>Jennil Thiyam</td>
+        <td>176155101</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Linguistics</td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-302</td>
+        <td>John Kiran Katari</td>
+        <td>176151103</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Energy</td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-303</td>
+        <td>Joy Kumar Mondal</td>
+        <td>176104112</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>itsjoylive</td>
+        </tr>
+        <tr>
+        <td>B-304</td>
+        <td>Jyotirmoi Borah</td>
+        <td>176121103</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>ma.jyotimoiborah@gmail.com</td>
+        </tr>
+        <tr>
+        <td>B-305</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-306</td>
+        <td>Srinu Naik M</td>
+        <td>164102119</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-307</td>
+        <td>M Chetan Sriram</td>
+        <td>140121023</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>madase</td>
+        </tr>
+        <tr>
+        <td>B-308</td>
+        <td>SURANJIT BASUMATARY</td>
+        <td>164154010</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>CRT</td>
+        <td>suran.basu</td>
+        </tr>
+        <tr>
+        <td>B-309</td>
+        <td>HAFIZ  MAYEEN</td>
+        <td>164103027</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>hafizm</td>
+        </tr>
+        <tr>
+        <td>B-310</td>
+        <td>Savinay Parihar</td>
+        <td>160101062</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CS</td>
+        <td>savinay</td>
+        </tr>
+        <tr>
+        <td>B-311</td>
+        <td>Kevin Savsani</td>
+        <td>160101063</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>kevinmsavsani</td>
+        </tr>
+        <tr>
+        <td>B-312</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-313</td>
+        <td>Neilotpal Biswas</td>
+        <td>PS</td>
+        <td> </td>
+        <td>PS</td>
+        <td>CSE</td>
+        <td>nilotpal.biswas</td>
+        </tr>
+        <tr>
+        <td>B-314</td>
+        <td>Vivek Saini</td>
+        <td>160106054</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>vivek.ks901</td>
+        </tr>
+        <tr>
+        <td>B-315</td>
+        <td>Phool Chandra</td>
+        <td>160101051</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>phoolchandra</td>
+        </tr>
+        <tr>
+        <td>B-316</td>
+        <td>Rahul Kumar</td>
+        <td>160101053</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-317</td>
+        <td>Bhargav Mallala</td>
+        <td>160101040</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>bhargav.mallala</td>
+        </tr>
+        <tr>
+        <td>B-318</td>
+        <td>Vishwas Mishra</td>
+        <td>160106053</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>BSBE</td>
+        <td>vishwas17597</td>
+        </tr>
+        <tr>
+        <td>B-319</td>
+        <td>CHINTALA SRIVASAGANAPATHI</td>
+        <td>164104104</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>chintala2016</td>
+        </tr>
+        <tr>
+        <td>B-320</td>
+        <td>SRINIVAS PALURI</td>
+        <td>164104027</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-321</td>
+        <td>RAVITEJA CHEERLA</td>
+        <td>164104061</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-322</td>
+        <td>KIRAN KUMAR  JUJJAVARAPU</td>
+        <td>164104018</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>kiran2016</td>
+        </tr>
+        <tr>
+        <td>B-323</td>
+        <td>Srinidhi Jha</td>
+        <td>2017PS50022</td>
+        <td> </td>
+        <td>PS</td>
+        <td>Civil</td>
+        <td>srinidhi</td>
+        </tr>
+        <tr>
+        <td>B-324</td>
+        <td>NAVEEN REDDY KALLAM</td>
+        <td>164104023</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>naveen2016</td>
+        </tr>
+        <tr>
+        <td>B-325</td>
+        <td>CHANDRASEKHAR REDDY L</td>
+        <td>164104099</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>chandrasekhar</td>
+        </tr>
+        <tr>
+        <td>B-326</td>
+        <td>Koustabh Bora</td>
+        <td>176104113</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>koustabhaec69@gmail</td>
+        </tr>
+        <tr>
+        <td>B-327</td>
+        <td>Sheetal B</td>
+        <td>140121011</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>bhashakarla</td>
+        </tr>
+        <tr>
+        <td>B-328</td>
+        <td>NAGARAJU KANAM</td>
+        <td>164104090</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>nagarju.kanam</td>
+        </tr>
+        <tr>
+        <td>B-329</td>
+        <td>Sanchit Jangir</td>
+        <td>160101060</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>sanchitjangir</td>
+        </tr>
+        <tr>
+        <td>B-330</td>
+        <td>Kakustam Anurag</td>
+        <td>160101037</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>kakustham</td>
+        </tr>
+        <tr>
+        <td>B-331</td>
+        <td>Samyak Jain</td>
+        <td>160101059</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>samyakjain</td>
+        </tr>
+        <tr>
+        <td>B-332</td>
+        <td>Jatin Goyal</td>
+        <td>160101036</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>jatingoyal</td>
+        </tr>
+        <tr>
+        <td>B-333</td>
+        <td>Namit Kumar</td>
+        <td>160101046</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>namitkrarya</td>
+        </tr>
+        <tr>
+        <td>B-334</td>
+        <td>Ambrish Singh</td>
+        <td>176103107</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>iambrishsingh@gmail</td>
+        </tr>
+        <tr>
+        <td>B-335</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-336</td>
+        <td>Yash Sharma</td>
+        <td>160101060</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-337</td>
+        <td>Nitin Kedia</td>
+        <td>160101048</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>kedia_nitin</td>
+        </tr>
+        <tr>
+        <td>B-338</td>
+        <td>Vivek Kumar</td>
+        <td>160101076</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>vivekraj</td>
+        </tr>
+        <tr>
+        <td>B-339</td>
+        <td>Rohit Pant</td>
+        <td>160101049</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>rohit.pant</td>
+        </tr>
+        <tr>
+        <td>B-340</td>
+        <td>Kapil Goyal</td>
+        <td>160101039</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>kapil.goyal</td>
+        </tr>
+        <tr>
+        <td>B-341</td>
+        <td>Saranga Das</td>
+        <td>154106015</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-342</td>
+        <td>Mohit Singh</td>
+        <td>160101043</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-343</td>
+        <td>Sahib Khan</td>
+        <td>160101057</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>sahib15khan</td>
+        </tr>
+        <tr>
+        <td>B-344</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>P.Lock</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-345</td>
+        <td>Shivam Kumar</td>
+        <td>160101066</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>shivam2016</td>
+        </tr>
+        <tr>
+        <td>B-346</td>
+        <td>Abhisek Dey</td>
+        <td> </td>
+        <td>PS</td>
+        <td>ps</td>
+        <td> </td>
+        <td>ABHISHEKDEY</td>
+        </tr>
+        <tr>
+        <td>B-347</td>
+        <td>Arup Kumar Pal</td>
+        <td>174102055</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>arup174102055</td>
+        </tr>
+        <tr>
+        <td>B-348</td>
+        <td>Sumedh Manwar</td>
+        <td>160101074</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>sumedhmanwar</td>
+        </tr>
+        <tr>
+        <td>B-349</td>
+        <td>Sambit Pradhan</td>
+        <td>162122032</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>sambitpradhan</td>
+        </tr>
+        <tr>
+        <td>B-350</td>
+        <td>Jamesh Dinakaran Nirjinary</td>
+        <td>162123017</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-351</td>
+        <td>Shubham Kumar Koul</td>
+        <td>160101069</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-352</td>
+        <td>Saurabh Bazari</td>
+        <td>160101061</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-353</td>
+        <td>Sparsh Bansal</td>
+        <td>160101072</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>B-354</td>
+        <td>Ritik Agarwal</td>
+        <td>160101055</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-301</td>
+        <td>Siddhartha sharma</td>
+        <td>160101071</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>siddharthks</td>
+        </tr>
+        <tr>
+        <td>C-302</td>
+        <td>ANI  DALAL</td>
+        <td>164205003</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>ani67</td>
+        </tr>
+        <tr>
+        <td>C-303</td>
+        <td>MANASH JYOTI BORA</td>
+        <td>164104024</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>manashjyoti</td>
+        </tr>
+        <tr>
+        <td>C-304</td>
+        <td>Nikhil Kumar</td>
+        <td>160101047</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>nikhilabcdenk</td>
+        </tr>
+        <tr>
+        <td>C-305</td>
+        <td>SANJEET BAPURAO SALUNKE</td>
+        <td>174104102</td>
+        <td>MTECH</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>sanje174104102</td>
+        </tr>
+        <tr>
+        <td>C-306</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-307</td>
+        <td>MOHIJEET   DAS</td>
+        <td>164205013</td>
+        <td>M.Des</td>
+        <td>Student</td>
+        <td>Design</td>
+        <td>mohijeet</td>
+        </tr>
+        <tr>
+        <td>C-308</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-309</td>
+        <td>DIPTO DEB</td>
+        <td>164104060</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>diptodeb</td>
+        </tr>
+        <tr>
+        <td>C-310</td>
+        <td>VISWANATH MAHATO</td>
+        <td>176122020</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>bishw176122020</td>
+        </tr>
+        <tr>
+        <td>C-311</td>
+        <td>Poreddy SaiKiran</td>
+        <td>160101052</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>saikaranreddy.saikaran</td>
+        </tr>
+        <tr>
+        <td>C-312</td>
+        <td> Basabendu Barman</td>
+        <td>156121033</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>bb1988</td>
+        </tr>
+        <tr>
+        <td>C-313</td>
+        <td>Himachal Singh</td>
+        <td>176102109</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-314</td>
+        <td>SHAILENDRA HARIOUDH</td>
+        <td>174104085</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>shail174104085</td>
+        </tr>
+        <tr>
+        <td>C-315</td>
+        <td>SURU ADITYA ASHUTOSH</td>
+        <td>130107064</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>Chemical</td>
+        <td>sashutosh</td>
+        </tr>
+        <tr>
+        <td>C-316</td>
+        <td>RAKESH KUMAR SAHOO</td>
+        <td>174104097</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>sahoo174104097</td>
+        </tr>
+        <tr>
+        <td>C-317</td>
+        <td>Hirakjyoti Basumatary</td>
+        <td>176103030</td>
+        <td>B.tech</td>
+        <td>Vacant</td>
+        <td>ME</td>
+        <td>b.hirak</td>
+        </tr>
+        <tr>
+        <td>C-318</td>
+        <td>Dudul Das</td>
+        <td>156151011</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>dudul.das</td>
+        </tr>
+        <tr>
+        <td>C-319</td>
+        <td>V ABHISHEK</td>
+        <td>164104026</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>abhishek17</td>
+        </tr>
+        <tr>
+        <td>C-320</td>
+        <td>SHEIKH MOONSUN PERVEZ</td>
+        <td>162121039</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>moonsun</td>
+        </tr>
+        <tr>
+        <td>C-321</td>
+        <td> </td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-322</td>
+        <td>RAJU AGARWAL</td>
+        <td>174102028</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>raju174102028</td>
+        </tr>
+        <tr>
+        <td>C-323</td>
+        <td>SREEJEITH MURALIDHAR</td>
+        <td>174104126</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-324</td>
+        <td>Arka Mitra</td>
+        <td>176104102</td>
+        <td>PHD</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-325</td>
+        <td>Nayanjyoti Kalita</td>
+        <td>Temp</td>
+        <td> </td>
+        <td>Temp</td>
+        <td> </td>
+        <td>nayanjyotikalita1990@gmail</td>
+        </tr>
+        <tr>
+        <td>C-326</td>
+        <td>Inderpreet Singh</td>
+        <td>160101035</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-327</td>
+        <td>Varun Kumar Kedia</td>
+        <td>160101075</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>varunkedia</td>
+        </tr>
+        <tr>
+        <td>C-328</td>
+        <td>ABI ABRAHAM</td>
+        <td>174104107</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>abi174104107</td>
+        </tr>
+        <tr>
+        <td>C-329</td>
+        <td>SASI KIRAN  TALABHAKTULA</td>
+        <td>164103029</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>sasi.kiran</td>
+        </tr>
+        <tr>
+        <td>C-330</td>
+        <td>Mukul Verma</td>
+        <td>160101044</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>mRv_1990</td>
+        </tr>
+        <tr>
+        <td>C-331</td>
+        <td>Yagyansh Bhatia</td>
+        <td>160101079</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-332</td>
+        <td>Ranendra kumar sharma</td>
+        <td>174102025</td>
+        <td>M.tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>ranen174102025</td>
+        </tr>
+        <tr>
+        <td>C-333</td>
+        <td>Paranjay Bagga</td>
+        <td>160101050</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>paranjay14</td>
+        </tr>
+        <tr>
+        <td>C-334</td>
+        <td>Shubendhu Patidar</td>
+        <td>160101068</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>C-335</td>
+        <td>Mitansh Jain</td>
+        <td>160101042</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>mitansh1398</td>
+        </tr>
+        <tr>
+        <td>C-336</td>
+        <td>Sujoy Ghosh</td>
+        <td>160101073</td>
+        <td>B.tech</td>
+        <td>Student</td>
+        <td>CSE</td>
+        <td>ghoshsujoy19</td>
+        </tr>
+        <tr>
+        <td>C-337</td>
+        <td>BIDYUT BIKASH CHANGMAI</td>
+        <td>162241006</td>
+        <td>MA</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>bidyutchangmai99</td>
+        </tr>
+        <tr>
+        <td>C-338</td>
+        <td>VENKATA KRISHNA KADIYAM</td>
+        <td>164104009</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>krishna2016</td>
+        </tr>
+        <tr>
+        <td>C-339</td>
+        <td> </td>
+        <td>Vacant</td>
+        <td> </td>
+        <td> </td>
+        <td>To check</td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-301</td>
+        <td>SUBHENDU KEORA</td>
+        <td>162123047</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>subhendukeora</td>
+        </tr>
+        <tr>
+        <td>D-302</td>
+        <td>ABHIJIT SHIT</td>
+        <td>162123002</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>aaabhijit</td>
+        </tr>
+        <tr>
+        <td>D-303</td>
+        <td>DEEPAK SINGH OLA</td>
+        <td>162121021</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>deepaksinghola</td>
+        </tr>
+        <tr>
+        <td>D-304</td>
+        <td>NITIN GUPTA</td>
+        <td>162121035</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>nit_gupta94</td>
+        </tr>
+        <tr>
+        <td>D-305</td>
+        <td>ABHAY GAUR</td>
+        <td>162122002</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>abhay2016</td>
+        </tr>
+        <tr>
+        <td>D-306</td>
+        <td>SUMAN DOLAI</td>
+        <td>162122041</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>s.doloi</td>
+        </tr>
+        <tr>
+        <td>D-307</td>
+        <td>JINKU DAS</td>
+        <td>162121026</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>dasjinku</td>
+        </tr>
+        <tr>
+        <td>D-308</td>
+        <td>BRAJESH KUMAR</td>
+        <td>162121016</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>brak12</td>
+        </tr>
+        <tr>
+        <td>D-309</td>
+        <td>SUVENDU PARIDA</td>
+        <td>174104082</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>Civil</td>
+        <td>suven174104082</td>
+        </tr>
+        <tr>
+        <td>D-310</td>
+        <td>AKHILESH KUMAR SINGH</td>
+        <td>162123004</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>akhilesh2016</td>
+        </tr>
+        <tr>
+        <td>D-311</td>
+        <td>MRINAL KANTI GIRI</td>
+        <td>162121033</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>mrinalphy</td>
+        </tr>
+        <tr>
+        <td>D-312</td>
+        <td>CHANDAN KUMAR SAH</td>
+        <td>162121017</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>chandan2016</td>
+        </tr>
+        <tr>
+        <td>D-313</td>
+        <td>DIPUNJAY BRAHAMA</td>
+        <td>COACH</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-314</td>
+        <td>Indrajeet Chatterjee</td>
+        <td>162122014</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>indrajitchatterjee</td>
+        </tr>
+        <tr>
+        <td>D-315</td>
+        <td>AMIT DEBNATH</td>
+        <td>162123006</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>amitdebnath</td>
+        </tr>
+        <tr>
+        <td>D-316</td>
+        <td>KALLOL RAY</td>
+        <td>162123018</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>kallolray</td>
+        </tr>
+        <tr>
+        <td>D-317</td>
+        <td>MANISH SAINI</td>
+        <td>162121032</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>manishsaini</td>
+        </tr>
+        <tr>
+        <td>D-318</td>
+        <td>SUBHRADIP KUNDU</td>
+        <td>162123048</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>s.kundu</td>
+        </tr>
+        <tr>
+        <td>D-319</td>
+        <td>RAVISHANKAR  </td>
+        <td>162241017</td>
+        <td>M.A</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>iamravi94</td>
+        </tr>
+        <tr>
+        <td>D-320</td>
+        <td>RUPAMSHANKAR NATH</td>
+        <td>162123036</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>rupammath23</td>
+        </tr>
+        <tr>
+        <td>D-321</td>
+        <td>RUPESH KUMAR TIWARI</td>
+        <td>162122029</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>rupeshkr</td>
+        </tr>
+        <tr>
+        <td>D-322</td>
+        <td>SALU KUMAR RAM</td>
+        <td>162122031</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>salu2016</td>
+        </tr>
+        <tr>
+        <td>D-323</td>
+        <td>SAURAV</td>
+        <td>162123043</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>saurav2016</td>
+        </tr>
+        <tr>
+        <td>D-324</td>
+        <td>SATYAJIT PATRA</td>
+        <td>162122034</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>satyajitpatra</td>
+        </tr>
+        <tr>
+        <td>D-325</td>
+        <td>DESH RAJ VERMA</td>
+        <td>162121023</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>deshu</td>
+        </tr>
+        <tr>
+        <td>D-326</td>
+        <td>PRASENJIT MANDAL</td>
+        <td>162122027</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>mandal.prasenjit</td>
+        </tr>
+        <tr>
+        <td>D-327</td>
+        <td>AMAN</td>
+        <td>162123005</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Math</td>
+        <td>aman2016</td>
+        </tr>
+        <tr>
+        <td>D-328</td>
+        <td>OIYAO APPUN PEGU</td>
+        <td>162122023</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>oiyao</td>
+        </tr>
+        <tr>
+        <td>D-329</td>
+        <td> Syed Nayab Rasool</td>
+        <td>176103007</td>
+        <td>PhD</td>
+        <td>Student</td>
+        <td>ME</td>
+        <td>ras176103007</td>
+        </tr>
+        <tr>
+        <td>D-330</td>
+        <td>NIKHIL KUMAR</td>
+        <td>162121034</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>nikhilk390</td>
+        </tr>
+        <tr>
+        <td>D-331</td>
+        <td>SAURAV SAHOO</td>
+        <td>162123044</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>sauravs899</td>
+        </tr>
+        <tr>
+        <td>D-332</td>
+        <td>Subhayan Samanta</td>
+        <td>162122039</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>subhyan2295</td>
+        </tr>
+        <tr>
+        <td>D-333</td>
+        <td>PAWAN KUMAR TIWARI</td>
+        <td>162122025</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>pawantiwari</td>
+        </tr>
+        <tr>
+        <td>D-334</td>
+        <td>Somgutt</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-335</td>
+        <td> </td>
+        <td>occ</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-336</td>
+        <td>Rajesh Choudhary</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-337</td>
+        <td>Sagnik Middya</td>
+        <td>PS</td>
+        <td>PS</td>
+        <td>PS</td>
+        <td>CNT</td>
+        <td>sagnik.middya</td>
+        </tr>
+        <tr>
+        <td>D-338</td>
+        <td>Ronak Lalani</td>
+        <td>174102043</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>ronak1741020</td>
+        </tr>
+        <tr>
+        <td>D-339</td>
+        <td> Moatemsu Basumatary</td>
+        <td>PS</td>
+        <td>PS</td>
+        <td>PS</td>
+        <td>HSS</td>
+        <td>moabosu</td>
+        </tr>
+        <tr>
+        <td>D-340</td>
+        <td>Jay Prakash Deka</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-341</td>
+        <td>Milan Kumar Jana</td>
+        <td>162122019</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>milanchemo</td>
+        </tr>
+        <tr>
+        <td>D-342</td>
+        <td>Badan Dey</td>
+        <td>Coach      </td>
+        <td>Coach      </td>
+        <td>Coach      </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-343</td>
+        <td>Atanu Jana</td>
+        <td>162121013</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>atanuthephyscict</td>
+        </tr>
+        <tr>
+        <td>D-344</td>
+        <td>Anup Bora</td>
+        <td>Coach</td>
+        <td> </td>
+        <td>Coach</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-345</td>
+        <td>Mriganka Jyoti Deka</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-346</td>
+        <td>Ratnesh Kumar</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td>Coach</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-347</td>
+        <td>Rishi Chandra</td>
+        <td>174102048</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>rishi174102048</td>
+        </tr>
+        <tr>
+        <td>D-348</td>
+        <td>Prabhanshu Porwar</td>
+        <td>174102058</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>prabb174102058</td>
+        </tr>
+        <tr>
+        <td>D-349</td>
+        <td>Deepak Kumar Sahoo</td>
+        <td>174102060</td>
+        <td>M.Tech</td>
+        <td>Student</td>
+        <td>EEE</td>
+        <td>sahoo174102060</td>
+        </tr>
+        <tr>
+        <td>D-350</td>
+        <td>RONI CHATTERJEE</td>
+        <td>162121037</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>ranichatterjee6</td>
+        </tr>
+        <tr>
+        <td>D-351</td>
+        <td>Vivek Ghritlahre</td>
+        <td>164351002</td>
+        <td>MSR</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>vivekghritkahre</td>
+        </tr>
+        <tr>
+        <td>D-352</td>
+        <td>JOYDIPTO BHATTACHARYA</td>
+        <td>162121028</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>joydipto</td>
+        </tr>
+        <tr>
+        <td>D-353</td>
+        <td>SHOUNAK DE</td>
+        <td>162121040</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>shounakde</td>
+        </tr>
+        <tr>
+        <td>D-354</td>
+        <td>AMEER MEHER</td>
+        <td>162121005</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>ameermeher10</td>
+        </tr>
+        <tr>
+        <td>D-355</td>
+        <td>CHIRANJIT MAHATO</td>
+        <td>162121018</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>chirunas</td>
+        </tr>
+        <tr>
+        <td>D-356</td>
+        <td>kushal Chakraborty</td>
+        <td>162121031</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>kushalstan</td>
+        </tr>
+        <tr>
+        <td>D-357</td>
+        <td> Prashik Tulsidas Bobade</td>
+        <td>164351003</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-358</td>
+        <td>KOUSIK ROUTH</td>
+        <td>162122016</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>koushikrouth</td>
+        </tr>
+        <tr>
+        <td>D-359</td>
+        <td>BISWAJIT MONDAL</td>
+        <td>162122009</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>biswajit.mandal</td>
+        </tr>
+        <tr>
+        <td>D-360</td>
+        <td>NABA KUMAR BISWAS</td>
+        <td>162122022</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Che</td>
+        <td>naba5029</td>
+        </tr>
+        <tr>
+        <td>D-361</td>
+        <td>BIHAN BANERJEE</td>
+        <td>162121015</td>
+        <td> </td>
+        <td>Student</td>
+        <td> </td>
+        <td> </td>
+        </tr>
+        <tr>
+        <td>D-362</td>
+        <td>ARINDAM  CHAKMA</td>
+        <td>162241003</td>
+        <td>MA</td>
+        <td>Student</td>
+        <td>HSS</td>
+        <td>arindamchakma1</td>
+        </tr>
+        <tr>
+        <td>D-363</td>
+        <td>MATAP SHANKAR</td>
+        <td>162123021</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>matapshankar</td>
+        </tr>
+        <tr>
+        <td>D-364</td>
+        <td>SUKHJOVAN SINGH GILL</td>
+        <td>162121044</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>Phy</td>
+        <td>sukhjovan</td>
+        </tr>
+        <tr>
+        <td>D-365</td>
+        <td>Mriganka Saha</td>
+        <td>164351012</td>
+        <td>MSR</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>mriganka.saha</td>
+        </tr>
+        <tr>
+        <td>D-366</td>
+        <td>Tota Sai Santhosh</td>
+        <td>164351005</td>
+        <td>MSR</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>saisanthosh</td>
+        </tr>
+        <tr>
+        <td>D-367</td>
+        <td>SATVEER SINGH</td>
+        <td>162123041</td>
+        <td>M.Sc</td>
+        <td>Student</td>
+        <td>M&amp;C</td>
+        <td>satveersingh</td>
+        </tr>
+        <tr>
+        <td>D-368</td>
+        <td>Tushar Sharma</td>
+        <td>164351010</td>
+        <td>MSR</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>tusharsharma</td>
+        </tr>
+        <tr>
+        <td>D-369</td>
+        <td>Mohammad Adil</td>
+        <td>164351007</td>
+        <td>MSR</td>
+        <td>Student</td>
+        <td>CE</td>
+        <td>md.adil</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="footer" style="margin-right: 10%;margin-left: 10%;">
+    <h4 style="text-align: center">Designed and Maintained by <a href="https://www.facebook.com/pavan71198" target="_blank" style="text-decoration: none">Pavan Kumar</a></h4>
+</div>
+</body>
+</html>

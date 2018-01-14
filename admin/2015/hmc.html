@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lohit Hostel</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../../logo.jpg" />
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <style>
+        .dropdown-submenu {
+            position: relative;
+        }
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+        }
+
+        .navbar-nav a{
+            font-size:large;
+        }
+        .navbar-brand{
+            font-size: x-large;
+        }
+        .row a{
+            text-decoration:none;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="font-family: 'Bradley Hand ITC';color:#ff8800;"><b><i>Lohit Hostel</i></b></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="../../index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Administration</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2017-18</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="../../admin/2017/hmc.html">HMC</a></li>
+                                <li><a tabindex="-1" href="../../admin/2017/mmc.html">MMC</a></li>
+                                <li><a tabindex="-1" href="../../admin/2017/arc.html">Anti Ragging Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2016-17</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="../../admin/2016/hmc.html">HMC</a></li>
+                                <li><a tabindex="-1" href="../../admin/2016/mmc.html">MMC</a></li>
+                                <li><a tabindex="-1" href="../../admin/2016/arc.html">Anti Ragging Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#" class="test">2015-16</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../../admin/2015/hmc.html">HMC</a></li>
+                                <li><a href="../../admin/2015/mmc.html">MMC</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="../../boarders.html">Boarders</a></li>
+                <li><a href="../../facilities.html">Facilities</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Intra-Hostel Competitions</a>
+                    <ul  class="dropdown-menu">
+                        <li><a href="../../ihc/kriti.html">Kriti</a></li>
+                        <li><a href="../../ihc/manthan.html">Manthan</a></li>
+                        <li><a href="../../ihc/spardha.html">Spardha</a></li>
+                    </ul>
+                </li>
+                <li><a href="../../gallery.html">Gallery</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Suggestion Forms</a>
+                    <ul  class="dropdown-menu">
+                        <li><a href="../../sugg/mess_sugg.html">Mess Suggestion Form</a></li>
+                        <li><a href="../../sugg/maint_sugg.html">Maintenance Suggestion Form</a></li>
+                    </ul>
+                </li>
+                <li><a href="../../policies.html">Hostel Policies</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<script>
+    $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+        });
+    });
+</script>
+<h1 style="text-align: center">Hostel Management Committee 2015-16</h1>
+<br>
+<br>
+<div class="row container-fluid">
+    <div class="col-md-2"></div>
+    <div class="col-md-1"><div class="thumbnail">
+        <img src="../../img/2015/hmc/warden.jpg">
+    </div></div>
+    <div class="col-md-2">
+        <a href="http://www.iitg.ac.in/mq/">Mohammad Qureshi</a><br>
+        Warden<br>
+        WEBMAIL: mq<br>
+        CONTACT ME: +913612582320<br>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-1"><div class="thumbnail">
+        <img src="../../img/2015/hmc/aso1.jpg">
+    </div></div>
+    <div class="col-md-2">
+        <a href="http://www.iitg.ac.in/pankaj.biswas/">Pankaj Biswas</a><br>
+        Associate Warden<br>
+        WEBMAIL: pankaj.biswas<br>
+        CONTACT ME: +913612582675<br>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<div class="row container-fluid">
+    <div class="col-md-2"></div>
+    <div class="col-md-1"><div class="thumbnail">
+        <img src="../../img/2015/hmc/aso2.JPG">
+    </div></div>
+    <div class="col-md-2">
+        <a href="http://www.iitg.ac.in/evmrs/">Dr. Mamilla Sankar</a><br>
+        Associate Warden<br>
+        WEBMAIL: evmrs<br>
+        CONTACT ME: +913612582684<br>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-1"><div class="thumbnail">
+        <img src="../../img/2015/hmc/care.jpg">
+    </div></div>
+    <div class="col-md-2">
+        <a href="https://www.facebook.com/bimal.das.353?fref=ts">Mr.Bimal Das</a><br>
+        Caretataker<br>
+        WEBMAIL: bimal.d<br>
+        CONTACT ME: 09897867575<br>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<div class="row container-fluid">
+    <div class="col-md-2"></div>
+    <div class="col-md-1"><div class="thumbnail">
+        <img src="../../img/2015/hmc/gensec.jpg">
+    </div></div>
+    <div class="col-md-2">
+        <a href="https://www.facebook.com/j.bhatnagar.238">Jatin Bhatnagar</a><br>
+        General Secretary<br>
+        WEBMAIL: j.bhatnagar<br>
+        CONTACT ME: 07896890365<br>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-1"><div class="thumbnail">
+        <img src="../../img/2015/hmc/sports.JPG">
+    </div>
+    </div>
+    <div class="col-md-2">
+        <a href="https://www.facebook.com/amit.yadav.5815">Amit Yadav</a><br>
+        Sports Secretary<br>
+        WEBMAIL: amitkumar.cse<br>
+        CONTACT ME: 07896888714<br>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+
+<div class="row container-fluid">
+    <div class="col-md-2"></div>
+    <div class="col-md-1">
+        <div class="thumbnail">
+            <img src="../../img/2015/hmc/tech.jpg">
+        </div>
+    </div>
+    <div class="col-md-2">
+        <a href="https://www.facebook.com/amitkabi95"> Amit Kabi </a><br>
+        Technical Secretary<br>
+        WEBMAIL: amit.kabi<br>
+        CONTACT ME: 08486514137<br>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-1">
+        <div class="thumbnail">
+            <img src="../../img/2015/hmc/welfare.jpg">
+        </div>
+    </div>
+    <div class="col-md-2">
+        <a href="https://www.facebook.com/ginto.devassykuttypadassery">Ginto D. Padassery</a><br>
+        Welfare Secretary<br>
+        WEBMAIL: ginto<br>
+        CONTACT ME: 09085314472<br>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<div class="row container-fluid">
+    <div class="col-md-2"></div>
+    <div class="col-md-1">
+        <div class="thumbnail">
+            <img src="../../img/2015/hmc/maintainance.jpg">
+        </div>
+    </div>
+    <div class="col-md-2">
+        <a href="https://www.facebook.com/nitesh785"> Nitesh K. Gautam</a><br>
+        Maintainance Scretary<br>
+        WEBMAIL: g.nitesh<br>
+        CONTACT ME: 07664804873<br>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-1">
+        <div class="thumbnail">
+            <img src="../../img/2015/hmc/litseces.jpg">
+        </div></div>
+    <div class="col-md-2">
+        <a href="https://www.facebook.com/eshan0713"> Eshan Bhargava</a><br>
+        Literary Secretary<br>
+        WEBMAIL: e.bhargava<br>
+        CONTACT ME: 08721926601<br>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<div class="row container-fluid">
+    <div class="col-md-2"></div>
+    <div class="col-md-1">
+        <div class="thumbnail">
+            <img src="../../img/2015/hmc/mess.jpg">
+        </div>
+    </div>
+    <div class="col-md-2">
+        <a href="https://www.facebook.com/sanjeev.vishwakarma.399"> Sanjeev Vishwakarma</a><br>
+        Mess Convener<br>
+        WEBMAIL: v.sanjeev<br>
+        CONTACT ME: 09085742465<br>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-1">
+        <div class="thumbnail">
+            <img src="../../img/2015/hmc/cult.jpg">
+        </div>
+    </div>
+    <div class="col-md-2">
+        <a href="https://www.facebook.com/rahulraj.gupta.52"> Rahul Raj Gupta</a><br>
+        Cultural Secretary<br>
+        WEBMAIL: rahul.gupta<br>
+        CONTACT ME: 07896880584<br>
+    </div>
+</div>
+<div class="footer" style="margin-right: 10%;margin-left: 10%;">
+    <h4 style="text-align: center">Designed and Maintained by <a href="https://www.facebook.com/pavan71198" target="_blank" style="text-decoration: none">Pavan Kumar</a></h4>
+</div>
+</body>
+</html>
